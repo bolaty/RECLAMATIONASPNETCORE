@@ -1,0 +1,1296 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Zenith.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Agence/test": {
+      "get": {
+        "tags": [
+          "Agence"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Agence/ajouter": {
+      "post": {
+        "tags": [
+          "Agence"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsAgence"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsAgence"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsAgence"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Agence": {
+      "get": {
+        "tags": [
+          "Agence"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Agence"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Agence/{id}": {
+      "get": {
+        "tags": [
+          "Agence"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Agence"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Agence"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Calendar": {
+        "type": "object",
+        "properties": {
+          "minSupportedDateTime": {
+            "type": "string",
+            "format": "date-time",
+            "readOnly": true
+          },
+          "maxSupportedDateTime": {
+            "type": "string",
+            "format": "date-time",
+            "readOnly": true
+          },
+          "algorithmType": {
+            "$ref": "#/components/schemas/CalendarAlgorithmType"
+          },
+          "isReadOnly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "eras": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "twoDigitYearMax": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CalendarAlgorithmType": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "CalendarWeekRule": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "CompareInfo": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "version": {
+            "$ref": "#/components/schemas/SortVersion"
+          },
+          "lcid": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CultureInfo": {
+        "type": "object",
+        "properties": {
+          "parent": {
+            "$ref": "#/components/schemas/CultureInfo"
+          },
+          "lcid": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "keyboardLayoutId": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "ietfLanguageTag": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "displayName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "nativeName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "englishName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "twoLetterISOLanguageName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "threeLetterISOLanguageName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "threeLetterWindowsLanguageName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "compareInfo": {
+            "$ref": "#/components/schemas/CompareInfo"
+          },
+          "textInfo": {
+            "$ref": "#/components/schemas/TextInfo"
+          },
+          "isNeutralCulture": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "cultureTypes": {
+            "$ref": "#/components/schemas/CultureTypes"
+          },
+          "numberFormat": {
+            "$ref": "#/components/schemas/NumberFormatInfo"
+          },
+          "dateTimeFormat": {
+            "$ref": "#/components/schemas/DateTimeFormatInfo"
+          },
+          "calendar": {
+            "$ref": "#/components/schemas/Calendar"
+          },
+          "optionalCalendars": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Calendar"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "useUserOverride": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isReadOnly": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CultureTypes": {
+        "enum": [
+          1,
+          2,
+          4,
+          7,
+          8,
+          16,
+          32,
+          64
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "DataSet": {
+        "type": "object",
+        "properties": {
+          "container": {
+            "$ref": "#/components/schemas/IContainer"
+          },
+          "designMode": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "remotingFormat": {
+            "$ref": "#/components/schemas/SerializationFormat"
+          },
+          "schemaSerializationMode": {
+            "$ref": "#/components/schemas/SchemaSerializationMode"
+          },
+          "caseSensitive": {
+            "type": "boolean",
+            "default": false
+          },
+          "defaultViewManager": {
+            "type": "array",
+            "items": { },
+            "nullable": true,
+            "readOnly": true
+          },
+          "enforceConstraints": {
+            "type": "boolean",
+            "default": true
+          },
+          "dataSetName": {
+            "type": "string",
+            "default": "",
+            "nullable": true
+          },
+          "namespace": {
+            "type": "string",
+            "default": "",
+            "nullable": true
+          },
+          "prefix": {
+            "type": "string",
+            "default": "",
+            "nullable": true
+          },
+          "extendedProperties": {
+            "type": "object",
+            "additionalProperties": { },
+            "nullable": true,
+            "readOnly": true
+          },
+          "hasErrors": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isInitialized": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "locale": {
+            "$ref": "#/components/schemas/CultureInfo"
+          },
+          "site": {
+            "$ref": "#/components/schemas/ISite"
+          },
+          "relations": {
+            "type": "array",
+            "items": { },
+            "nullable": true,
+            "readOnly": true
+          },
+          "tables": {
+            "type": "array",
+            "items": { },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DateTimeFormatInfo": {
+        "type": "object",
+        "properties": {
+          "amDesignator": {
+            "type": "string",
+            "nullable": true
+          },
+          "calendar": {
+            "$ref": "#/components/schemas/Calendar"
+          },
+          "dateSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstDayOfWeek": {
+            "$ref": "#/components/schemas/DayOfWeek"
+          },
+          "calendarWeekRule": {
+            "$ref": "#/components/schemas/CalendarWeekRule"
+          },
+          "fullDateTimePattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "longDatePattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "longTimePattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "monthDayPattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "pmDesignator": {
+            "type": "string",
+            "nullable": true
+          },
+          "rfC1123Pattern": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "shortDatePattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "shortTimePattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "sortableDateTimePattern": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "timeSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "universalSortableDateTimePattern": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "yearMonthPattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "abbreviatedDayNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "shortestDayNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "dayNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "abbreviatedMonthNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "monthNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "isReadOnly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "nativeCalendarName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "abbreviatedMonthGenitiveNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "monthGenitiveNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DayOfWeek": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "DigitShapes": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "IComponent": {
+        "type": "object",
+        "properties": {
+          "site": {
+            "$ref": "#/components/schemas/ISite"
+          }
+        },
+        "additionalProperties": false
+      },
+      "IContainer": {
+        "type": "object",
+        "properties": {
+          "components": {
+            "type": "array",
+            "items": { },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ISite": {
+        "type": "object",
+        "properties": {
+          "component": {
+            "$ref": "#/components/schemas/IComponent"
+          },
+          "container": {
+            "$ref": "#/components/schemas/IContainer"
+          },
+          "designMode": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NumberFormatInfo": {
+        "type": "object",
+        "properties": {
+          "currencyDecimalDigits": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "currencyDecimalSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "isReadOnly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "currencyGroupSizes": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          },
+          "numberGroupSizes": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          },
+          "percentGroupSizes": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          },
+          "currencyGroupSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "currencySymbol": {
+            "type": "string",
+            "nullable": true
+          },
+          "naNSymbol": {
+            "type": "string",
+            "nullable": true
+          },
+          "currencyNegativePattern": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "numberNegativePattern": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "percentPositivePattern": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "percentNegativePattern": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "negativeInfinitySymbol": {
+            "type": "string",
+            "nullable": true
+          },
+          "negativeSign": {
+            "type": "string",
+            "nullable": true
+          },
+          "numberDecimalDigits": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "numberDecimalSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "numberGroupSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "currencyPositivePattern": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "positiveInfinitySymbol": {
+            "type": "string",
+            "nullable": true
+          },
+          "positiveSign": {
+            "type": "string",
+            "nullable": true
+          },
+          "percentDecimalDigits": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "percentDecimalSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "percentGroupSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "percentSymbol": {
+            "type": "string",
+            "nullable": true
+          },
+          "perMilleSymbol": {
+            "type": "string",
+            "nullable": true
+          },
+          "nativeDigits": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "digitSubstitution": {
+            "$ref": "#/components/schemas/DigitShapes"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SchemaSerializationMode": {
+        "enum": [
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "SerializationFormat": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "SortVersion": {
+        "type": "object",
+        "properties": {
+          "fullVersion": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sortId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TextInfo": {
+        "type": "object",
+        "properties": {
+          "ansiCodePage": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "oemCodePage": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "macCodePage": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "ebcdicCodePage": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "lcid": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "cultureName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "isReadOnly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "listSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "isRightToLeft": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsAgence": {
+        "type": "object",
+        "properties": {
+          "eT_NOMETAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "vappNomFormule": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "vappValeurFormule": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "urL_ETAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "eT_DOSSIER": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_RESULTAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "premiereexecution": {
+            "type": "string",
+            "nullable": true
+          },
+          "datepremiereexecution": {
+            "type": "string",
+            "nullable": true
+          },
+          "oP_LOGIN": {
+            "type": "string",
+            "nullable": true
+          },
+          "eX_DATEAFFECTATIONRESULTAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "dbuser": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_LIBELLEMOUCHARD": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_LIBELLEECRAN": {
+            "type": "string",
+            "nullable": true
+          },
+          "lG_CODELANGUE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_MOTDEPASSE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_VALEURRETOURS": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeoperation": {
+            "type": "string",
+            "nullable": true
+          },
+          "datedebut": {
+            "type": "string",
+            "nullable": true
+          },
+          "datefin": {
+            "type": "string",
+            "nullable": true
+          },
+          "montanT1": {
+            "type": "string",
+            "nullable": true
+          },
+          "montanT2": {
+            "type": "string",
+            "nullable": true
+          },
+          "nometat": {
+            "type": "string",
+            "nullable": true
+          },
+          "entetE1": {
+            "type": "string",
+            "nullable": true
+          },
+          "entetE2": {
+            "type": "string",
+            "nullable": true
+          },
+          "entetE3": {
+            "type": "string",
+            "nullable": true
+          },
+          "entetE4": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsObjetRetour": {
+            "$ref": "#/components/schemas/clsObjetRetour"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          },
+          "eX_EXERCICE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_RAISONSOCIALABREGEPOURSMS": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_EMAILMOTDEPASSE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_NUMEROCOMPTE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CINETSITEID": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CINETAPIKEY": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CINETAPIPWD": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CINETURLNOTIFICATIONZENITH": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CINETURLNOTIFICATIONTONTINE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_URLINTOUCHCASHIN": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_URLINTOUCHCASHOUT": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_TOKENTOUCHLOGIN": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_TOKENTOUCHPWD": {
+            "type": "string",
+            "nullable": true
+          },
+          "dY_CODEDOCUMENT": {
+            "type": "string",
+            "nullable": true
+          },
+          "sO_CODESOCIETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CODEAGENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_AGENCECODE": {
+            "type": "string",
+            "nullable": true
+          },
+          "pY_CODEPAYS": {
+            "type": "string",
+            "nullable": true
+          },
+          "vL_CODEVILLE": {
+            "type": "string",
+            "nullable": true
+          },
+          "zN_CODEZONE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_RAISONSOCIAL": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_BOITEPOSTAL": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_ADRESSEGEOGRAPHIQUE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_TELEPHONE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_FAX": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_EMAIL": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_NUMEROAGREMENT": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_REFERENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_DATECREATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_ACTIF": {
+            "type": "string",
+            "nullable": true
+          },
+          "oP_CODEOPERATEUR": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsObjetEnvoi": {
+        "type": "object",
+        "properties": {
+          "oE_F": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_A": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_O": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_D": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_X": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_Y": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_M": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_Z": {
+            "type": "boolean"
+          },
+          "oE_R": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_E": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_J": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_S": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_Q": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_U": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_T": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_G": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_H": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_B": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_C": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_K": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_V": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_Ex": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_L": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_Cl": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_Ddb": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_Sc": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_PARAM": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsObjetRetour": {
+        "type": "object",
+        "properties": {
+          "oR_BOOLEEN": {
+            "type": "boolean"
+          },
+          "oR_STRING": {
+            "type": "string",
+            "nullable": true
+          },
+          "oR_DATASET": {
+            "$ref": "#/components/schemas/DataSet"
+          },
+          "oR_LIST": {
+            "type": "array",
+            "items": { },
+            "nullable": true
+          },
+          "oR_MESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_VALEURRETOURS": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_CODEMESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_RESULTAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_MESSAGE": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

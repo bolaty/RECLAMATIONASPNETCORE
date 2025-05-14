@@ -1,0 +1,6094 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "MgRequeteClients.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Agence.svc/test": {
+      "get": {
+        "tags": [
+          "Agence"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Agence.svc/ajouter": {
+      "post": {
+        "tags": [
+          "Agence"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsAgence"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsAgence"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsAgence"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Agence.svc": {
+      "get": {
+        "tags": [
+          "Agence"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Agence"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Agence.svc/{id}": {
+      "get": {
+        "tags": [
+          "Agence"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Agence"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Agence"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgMajUtilisateurs": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UtilisateurWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UtilisateurWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UtilisateurWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeUtilisateurs": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjetsEnvoiListeWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjetsEnvoiListeWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjetsEnvoiListeWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeUtilisateursRecherche": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjetsEnvoiListeWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjetsEnvoiListeWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjetsEnvoiListeWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeUtilisateursRechercheParAgence": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjetsEnvoiListeWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjetsEnvoiListeWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjetsEnvoiListeWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeUtilisateursCombo": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjetsEnvoiListeWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjetsEnvoiListeWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjetsEnvoiListeWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgLogin": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjetsEnvoiListeWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjetsEnvoiListeWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ObjetsEnvoiListeWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgUpdateFirstconnexion": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "parameters": [
+          {
+            "name": "TU_CODETYPEUTILISATEUR",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "CU_MOTDEPASSEOLD",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "CU_LOGINOLD",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "CU_MOTDEPASSENEW",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "CU_LOGINNEW",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgMajReqrequete": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqrequeteObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqrequeteObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqrequeteObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsReqrequete"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsReqrequete"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsReqrequete"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeReqrequeteRelance": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgChargerDansDataSetParOperateurs": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgChargerDansDataSetParOperateursNotif": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgEnvoiEmail": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsEnvoiEmailObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsEnvoiEmailObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsEnvoiEmailObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsEnvoiEmail"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsEnvoiEmail"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsEnvoiEmail"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeReqrequete": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgMajReqrequeteEtape": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqrequeteetapeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqrequeteetapeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqrequeteetapeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsReqrequeteetape"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsReqrequeteetape"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsReqrequeteetape"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeReqrequeteEtape": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteetape"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteetape"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteetape"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeReqrequeteEtapeparRequete": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteetape"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteetape"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteetape"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeReqrequeteDoc": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgInfosDuClient": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqinfosduclient"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqinfosduclient"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqinfosduclient"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeReqrequeteEtapeConsultation": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteetape"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteetape"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteetape"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgChargerDansDataSetListeHistorique": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeReqrequeteEtapeCombo": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteetape"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteetape"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteetape"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgMajReqrequeteEtapeParam": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqrequeteparetapeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqrequeteparetapeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqrequeteparetapeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsReqrequeteparetape"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsReqrequeteparetape"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsReqrequeteparetape"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeReqrequeteEtapeParam": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteparetape"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteparetape"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteparetape"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeReqrequeteEtapeParamCombo": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteparetape"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteparetape"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequeteparetape"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgForgotPassword": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqmotdepasseoublierObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqmotdepasseoublierObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqmotdepasseoublierObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqmotdepasseoublier"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqmotdepasseoublier"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqmotdepasseoublier"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgPasswordRequest": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqcompteutilisateurObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqcompteutilisateurObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqcompteutilisateurObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeSMS": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqsmsout"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqsmsout"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqsmsout"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgLectureNotification": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqsmsout"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqsmsout"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqsmsout"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeReqrequeteBCAO": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsEditionEtatReclamation"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsEditionEtatReclamation"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsEditionEtatReclamation"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgMajReqrequeteContentieux": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsRequetecontentieuxObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsRequetecontentieuxObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsRequetecontentieuxObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequetecontentieux"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequetecontentieux"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequetecontentieux"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeReqrequeteContentieux": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequetecontentieux"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequetecontentieux"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequetecontentieux"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeReqrequeteContentieuxCombo": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequetecontentieux"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequetecontentieux"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequetecontentieux"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgNomDeLaStructure": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "parameters": [
+          {
+            "name": "PP_CODEPARAMETRE",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgTableauDeBord": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "parameters": [
+          {
+            "name": "AG_CODEAGENCE",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "RQ_DATEDEBUT",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "RQ_DATEFIN",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "CU_CODECOMPTEUTULISATEUR",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "TYPEETAT",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsTableauDeBord"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsTableauDeBord"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsTableauDeBord"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgMajUtilisateurDroitParam": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsRequtilisateurdroitparametreObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsRequtilisateurdroitparametreObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsRequtilisateurdroitparametreObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroitparametre"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroitparametre"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroitparametre"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeUtilisateurDroitParam": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroitparametre"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroitparametre"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroitparametre"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeUtilisateurDroitParamCombo": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroitparametre"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroitparametre"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroitparametre"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgMajUtilisateurDroit": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsRequtilisateurdroitObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsRequtilisateurdroitObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsRequtilisateurdroitObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroit"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroit"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroit"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeUtilisateurDroit": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroit"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroit"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroit"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeUtilisateurDroitCombo": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroit"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroit"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroit"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgListeUtilisateurDroitInfo": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroit"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroit"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroit"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgInsertIntoDatasetZoneWeb": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsZoneDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsZoneDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsZoneDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgInsertIntoDatasetAgenceWeb": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "parameters": [
+          {
+            "name": "EX_EXERCICE",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "SO_CODESOCIETE",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "OP_CODEOPERATEUR",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ZN_CODEZONE",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsAgenceDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsAgenceDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsAgenceDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgInsertIntoDatasetExerciceWeb": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsExerciceDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsExerciceDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsExerciceDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgInsertIntoDatasetPeriodiciteWeb": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsPeriodiciteDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsPeriodiciteDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsPeriodiciteDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgInsertIntoDatasetListeClient": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqcompteutilisateur"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgPeriodiciteWeb": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "parameters": [
+          {
+            "name": "EX_EXERCICE",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsPeriodeDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsPeriodeDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsPeriodeDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgPeriodiciteDateDebutFin": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "parameters": [
+          {
+            "name": "EX_EXERCICE",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "MO_CODEMOIS",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "PE_CODEPERIODICITE",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsPeriodeDateDebutDateFinDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsPeriodeDateDebutDateFinDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsPeriodeDateDebutDateFinDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgFrequenceReclamation": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "parameters": [
+          {
+            "name": "AG_CODEAGENCE",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "RQ_DATEDEBUT",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "RQ_DATEFIN",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "CU_CODECOMPTEUTULISATEUR",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "TYPEETAT",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsFrequenceReclamationDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsFrequenceReclamationDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsFrequenceReclamationDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgChargerDansDataSetDASHBOARD": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsObjetEnvoiListeObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgTableauDeBordstatistique": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "parameters": [
+          {
+            "name": "AG_CODEAGENCE",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "RQ_DATEDEBUT",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "RQ_DATEFIN",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "CU_CODECOMPTEUTULISATEUR",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "TYPEETAT",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsTableauDeBord"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsTableauDeBord"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/clsTableauDeBord"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgMajReqrequeteAvisclient": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqrequeteObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqrequeteObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsReqrequeteObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsReqrequete"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgAjouterdroitOperateur": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsRequtilisateurdroitparametreObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsRequtilisateurdroitparametreObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsRequtilisateurdroitparametreObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgDroitParOperateurs": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsRequtilisateurdroitparametreObjetsWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsRequtilisateurdroitparametreObjetsWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/clsRequtilisateurdroitparametreObjetsWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroitparametre"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroitparametre"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroitparametre"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgInsertIntoDatasetListeDroitUtilisateur": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroitparametre"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroitparametre"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/clsRequtilisateurdroitparametre"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgpvgMajReqrequeteEtapeUPloadFile": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgpvgMajReqrequeteUPloadFile": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/RequeteClientsClasse.svc/pvgMajReqrequeteContentieuxUPloadFile": {
+      "post": {
+        "tags": [
+          "RequeteClientsClasse"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Calendar": {
+        "type": "object",
+        "properties": {
+          "minSupportedDateTime": {
+            "type": "string",
+            "format": "date-time",
+            "readOnly": true
+          },
+          "maxSupportedDateTime": {
+            "type": "string",
+            "format": "date-time",
+            "readOnly": true
+          },
+          "algorithmType": {
+            "$ref": "#/components/schemas/CalendarAlgorithmType"
+          },
+          "isReadOnly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "eras": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "twoDigitYearMax": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CalendarAlgorithmType": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "CalendarWeekRule": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "CompareInfo": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "version": {
+            "$ref": "#/components/schemas/SortVersion"
+          },
+          "lcid": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CultureInfo": {
+        "type": "object",
+        "properties": {
+          "parent": {
+            "$ref": "#/components/schemas/CultureInfo"
+          },
+          "lcid": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "keyboardLayoutId": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "ietfLanguageTag": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "displayName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "nativeName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "englishName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "twoLetterISOLanguageName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "threeLetterISOLanguageName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "threeLetterWindowsLanguageName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "compareInfo": {
+            "$ref": "#/components/schemas/CompareInfo"
+          },
+          "textInfo": {
+            "$ref": "#/components/schemas/TextInfo"
+          },
+          "isNeutralCulture": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "cultureTypes": {
+            "$ref": "#/components/schemas/CultureTypes"
+          },
+          "numberFormat": {
+            "$ref": "#/components/schemas/NumberFormatInfo"
+          },
+          "dateTimeFormat": {
+            "$ref": "#/components/schemas/DateTimeFormatInfo"
+          },
+          "calendar": {
+            "$ref": "#/components/schemas/Calendar"
+          },
+          "optionalCalendars": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Calendar"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "useUserOverride": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isReadOnly": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CultureTypes": {
+        "enum": [
+          1,
+          2,
+          4,
+          7,
+          8,
+          16,
+          32,
+          64
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "DataSet": {
+        "type": "object",
+        "properties": {
+          "container": {
+            "$ref": "#/components/schemas/IContainer"
+          },
+          "designMode": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "remotingFormat": {
+            "$ref": "#/components/schemas/SerializationFormat"
+          },
+          "schemaSerializationMode": {
+            "$ref": "#/components/schemas/SchemaSerializationMode"
+          },
+          "caseSensitive": {
+            "type": "boolean",
+            "default": false
+          },
+          "defaultViewManager": {
+            "type": "array",
+            "items": { },
+            "nullable": true,
+            "readOnly": true
+          },
+          "enforceConstraints": {
+            "type": "boolean",
+            "default": true
+          },
+          "dataSetName": {
+            "type": "string",
+            "default": "",
+            "nullable": true
+          },
+          "namespace": {
+            "type": "string",
+            "default": "",
+            "nullable": true
+          },
+          "prefix": {
+            "type": "string",
+            "default": "",
+            "nullable": true
+          },
+          "extendedProperties": {
+            "type": "object",
+            "additionalProperties": { },
+            "nullable": true,
+            "readOnly": true
+          },
+          "hasErrors": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isInitialized": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "locale": {
+            "$ref": "#/components/schemas/CultureInfo"
+          },
+          "site": {
+            "$ref": "#/components/schemas/ISite"
+          },
+          "relations": {
+            "type": "array",
+            "items": { },
+            "nullable": true,
+            "readOnly": true
+          },
+          "tables": {
+            "type": "array",
+            "items": { },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DateTimeFormatInfo": {
+        "type": "object",
+        "properties": {
+          "amDesignator": {
+            "type": "string",
+            "nullable": true
+          },
+          "calendar": {
+            "$ref": "#/components/schemas/Calendar"
+          },
+          "dateSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstDayOfWeek": {
+            "$ref": "#/components/schemas/DayOfWeek"
+          },
+          "calendarWeekRule": {
+            "$ref": "#/components/schemas/CalendarWeekRule"
+          },
+          "fullDateTimePattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "longDatePattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "longTimePattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "monthDayPattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "pmDesignator": {
+            "type": "string",
+            "nullable": true
+          },
+          "rfC1123Pattern": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "shortDatePattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "shortTimePattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "sortableDateTimePattern": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "timeSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "universalSortableDateTimePattern": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "yearMonthPattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "abbreviatedDayNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "shortestDayNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "dayNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "abbreviatedMonthNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "monthNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "isReadOnly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "nativeCalendarName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "abbreviatedMonthGenitiveNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "monthGenitiveNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DayOfWeek": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "DigitShapes": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "IComponent": {
+        "type": "object",
+        "properties": {
+          "site": {
+            "$ref": "#/components/schemas/ISite"
+          }
+        },
+        "additionalProperties": false
+      },
+      "IContainer": {
+        "type": "object",
+        "properties": {
+          "components": {
+            "type": "array",
+            "items": { },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ISite": {
+        "type": "object",
+        "properties": {
+          "component": {
+            "$ref": "#/components/schemas/IComponent"
+          },
+          "container": {
+            "$ref": "#/components/schemas/IContainer"
+          },
+          "designMode": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NumberFormatInfo": {
+        "type": "object",
+        "properties": {
+          "currencyDecimalDigits": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "currencyDecimalSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "isReadOnly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "currencyGroupSizes": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          },
+          "numberGroupSizes": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          },
+          "percentGroupSizes": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          },
+          "currencyGroupSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "currencySymbol": {
+            "type": "string",
+            "nullable": true
+          },
+          "naNSymbol": {
+            "type": "string",
+            "nullable": true
+          },
+          "currencyNegativePattern": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "numberNegativePattern": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "percentPositivePattern": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "percentNegativePattern": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "negativeInfinitySymbol": {
+            "type": "string",
+            "nullable": true
+          },
+          "negativeSign": {
+            "type": "string",
+            "nullable": true
+          },
+          "numberDecimalDigits": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "numberDecimalSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "numberGroupSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "currencyPositivePattern": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "positiveInfinitySymbol": {
+            "type": "string",
+            "nullable": true
+          },
+          "positiveSign": {
+            "type": "string",
+            "nullable": true
+          },
+          "percentDecimalDigits": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "percentDecimalSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "percentGroupSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "percentSymbol": {
+            "type": "string",
+            "nullable": true
+          },
+          "perMilleSymbol": {
+            "type": "string",
+            "nullable": true
+          },
+          "nativeDigits": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "digitSubstitution": {
+            "$ref": "#/components/schemas/DigitShapes"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ObjetsEnvoiListeWrapper": {
+        "type": "object",
+        "properties": {
+          "objets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsObjetEnvoiListe"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SchemaSerializationMode": {
+        "enum": [
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "SerializationFormat": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "SortVersion": {
+        "type": "object",
+        "properties": {
+          "fullVersion": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sortId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TextInfo": {
+        "type": "object",
+        "properties": {
+          "ansiCodePage": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "oemCodePage": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "macCodePage": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "ebcdicCodePage": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "lcid": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "cultureName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "isReadOnly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "listSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "isRightToLeft": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UtilisateurWrapper": {
+        "type": "object",
+        "properties": {
+          "objets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsReqcompteutilisateur"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsAgence": {
+        "type": "object",
+        "properties": {
+          "eT_NOMETAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "vappNomFormule": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "vappValeurFormule": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "urL_ETAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "eT_DOSSIER": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_RESULTAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "premiereexecution": {
+            "type": "string",
+            "nullable": true
+          },
+          "datepremiereexecution": {
+            "type": "string",
+            "nullable": true
+          },
+          "oP_LOGIN": {
+            "type": "string",
+            "nullable": true
+          },
+          "eX_DATEAFFECTATIONRESULTAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "dbuser": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_LIBELLEMOUCHARD": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_LIBELLEECRAN": {
+            "type": "string",
+            "nullable": true
+          },
+          "lG_CODELANGUE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_MOTDEPASSE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_VALEURRETOURS": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeoperation": {
+            "type": "string",
+            "nullable": true
+          },
+          "datedebut": {
+            "type": "string",
+            "nullable": true
+          },
+          "datefin": {
+            "type": "string",
+            "nullable": true
+          },
+          "montanT1": {
+            "type": "string",
+            "nullable": true
+          },
+          "montanT2": {
+            "type": "string",
+            "nullable": true
+          },
+          "nometat": {
+            "type": "string",
+            "nullable": true
+          },
+          "entetE1": {
+            "type": "string",
+            "nullable": true
+          },
+          "entetE2": {
+            "type": "string",
+            "nullable": true
+          },
+          "entetE3": {
+            "type": "string",
+            "nullable": true
+          },
+          "entetE4": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsObjetRetour": {
+            "$ref": "#/components/schemas/clsObjetRetour"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          },
+          "aG_RAISONSOCIAL_TRANSLATE": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "eX_EXERCICE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_RAISONSOCIALABREGEPOURSMS": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_EMAILMOTDEPASSE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_NUMEROCOMPTE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CINETSITEID": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CINETAPIKEY": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CINETAPIPWD": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CINETURLNOTIFICATIONZENITH": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CINETURLNOTIFICATIONTONTINE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_URLINTOUCHCASHIN": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_URLINTOUCHCASHOUT": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_TOKENTOUCHLOGIN": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_TOKENTOUCHPWD": {
+            "type": "string",
+            "nullable": true
+          },
+          "dY_CODEDOCUMENT": {
+            "type": "string",
+            "nullable": true
+          },
+          "sO_CODESOCIETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CODEAGENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_AGENCECODE": {
+            "type": "string",
+            "nullable": true
+          },
+          "pY_CODEPAYS": {
+            "type": "string",
+            "nullable": true
+          },
+          "vL_CODEVILLE": {
+            "type": "string",
+            "nullable": true
+          },
+          "zN_CODEZONE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_RAISONSOCIAL": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_BOITEPOSTAL": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_ADRESSEGEOGRAPHIQUE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_TELEPHONE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_FAX": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_EMAIL": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_NUMEROAGREMENT": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_REFERENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_DATECREATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_ACTIF": {
+            "type": "string",
+            "nullable": true
+          },
+          "oP_CODEOPERATEUR": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsAgenceDTO": {
+        "type": "object",
+        "properties": {
+          "aG_CODEAGENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_RAISONSOCIAL": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_RAISONSOCIAL_TRANSLATE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_RESULTAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_MESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_CODEMESSAGE": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsDocEtapesDetail": {
+        "type": "object",
+        "properties": {
+          "aT_CODEDOC": {
+            "type": "string",
+            "nullable": true
+          },
+          "aT_NOMRAPPORT": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsEditionEtatReclamation": {
+        "type": "object",
+        "properties": {
+          "pY_LIBELLE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_RAISONSOCIAL": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsReqrequeteRecus": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsReqrequete"
+            },
+            "nullable": true
+          },
+          "clsReqrequeteEncours": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsReqrequete"
+            },
+            "nullable": true
+          },
+          "clsReqrequeteTraitees": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsReqrequete"
+            },
+            "nullable": true
+          },
+          "clsReqrequeteSuspendues": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsReqrequete"
+            },
+            "nullable": true
+          },
+          "rQ_MONTANTTOTALCONTENTIEUX": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_NOMBRETOTALCONTENTIEUX": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_MONTANTTOTALCONTENTIEUXAPRES": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_NOMBRETOTALCONTENTIEUXAPRES": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsEnvoiEmail": {
+        "type": "object",
+        "properties": {
+          "eE_NOM": {
+            "type": "string",
+            "nullable": true
+          },
+          "eE_PRENOMS": {
+            "type": "string",
+            "nullable": true
+          },
+          "eE_EMAIL": {
+            "type": "string",
+            "nullable": true
+          },
+          "eE_NUMTELEPHONE": {
+            "type": "string",
+            "nullable": true
+          },
+          "eE_NUMCOMPTE": {
+            "type": "string",
+            "nullable": true
+          },
+          "eE_OBSERVATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "eE_DATEEMISSION": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_CODEMESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_MESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_RESULTAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsEnvoiEmailObjetsWrapper": {
+        "type": "object",
+        "properties": {
+          "objets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsEnvoiEmail"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsExerciceDTO": {
+        "type": "object",
+        "properties": {
+          "eX_EXERCICE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_RESULTAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_MESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_CODEMESSAGE": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsFrequenceReclamationDTO": {
+        "type": "object",
+        "properties": {
+          "cU_CODECOMPTEUTULISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_NUMEROUTILISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_NOMUTILISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CONTACT": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_EMAIL": {
+            "type": "string",
+            "nullable": true
+          },
+          "canal": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsObjetEnvoi": {
+        "type": "object",
+        "properties": {
+          "aN_CODEANTENNE": {
+            "type": "string",
+            "nullable": true
+          },
+          "eT_CODEETABLISSEMENT": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CODEAGENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeoperation": {
+            "type": "string",
+            "nullable": true
+          },
+          "datedebut": {
+            "type": "string",
+            "nullable": true
+          },
+          "datefin": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsObjetEnvoiBase": {
+        "type": "object",
+        "properties": {
+          "oE_F": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_A": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_O": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_D": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_X": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_Y": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_M": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_Z": {
+            "type": "boolean"
+          },
+          "oE_R": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_E": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_J": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_S": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_Q": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_U": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_T": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_G": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_H": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_B": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_C": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_K": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_V": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_Ex": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_L": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_Cl": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_Ddb": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_Sc": {
+            "type": "string",
+            "nullable": true
+          },
+          "oE_PARAM": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsObjetEnvoiListe": {
+        "type": "object",
+        "properties": {
+          "oE_PARAM": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "rQ_CODEREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeoperation": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsObjetEnvoiListeObjetsWrapper": {
+        "type": "object",
+        "properties": {
+          "objets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsObjetEnvoiListe"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsObjetRetour": {
+        "type": "object",
+        "properties": {
+          "oR_BOOLEEN": {
+            "type": "boolean"
+          },
+          "oR_STRING": {
+            "type": "string",
+            "nullable": true
+          },
+          "oR_DATASET": {
+            "$ref": "#/components/schemas/DataSet"
+          },
+          "oR_LIST": {
+            "type": "array",
+            "items": { },
+            "nullable": true
+          },
+          "oR_MESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_VALEURRETOURS": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_CODEMESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_RESULTAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_MESSAGE": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsPeriodeDTO": {
+        "type": "object",
+        "properties": {
+          "mO_CODEMOIS": {
+            "type": "string",
+            "nullable": true
+          },
+          "mO_LIBELLE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_RESULTAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_MESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_CODEMESSAGE": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsPeriodeDateDebutDateFinDTO": {
+        "type": "object",
+        "properties": {
+          "mO_DATEDEBUT": {
+            "type": "string",
+            "nullable": true
+          },
+          "mO_DATEFIN": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_RESULTAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_MESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_CODEMESSAGE": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsPeriodiciteDTO": {
+        "type": "object",
+        "properties": {
+          "pE_CODEPERIODICITE": {
+            "type": "string",
+            "nullable": true
+          },
+          "pE_ABREVIATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "pE_LIBELLE": {
+            "type": "string",
+            "nullable": true
+          },
+          "pE_UNITE": {
+            "type": "string",
+            "nullable": true
+          },
+          "pE_PERIODICITE": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pE_MULTIPLE": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pE_PRODUCTIONETATFINANCIER": {
+            "type": "string",
+            "nullable": true
+          },
+          "pE_ACTIF": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_RESULTAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_MESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_CODEMESSAGE": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsReqcompteutilisateur": {
+        "type": "object",
+        "properties": {
+          "cU_CODECOMPTEUTULISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CODEAGENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_RAISONSOCIAL": {
+            "type": "string",
+            "nullable": true
+          },
+          "tU_CODETYPEUTILISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_NUMEROUTILISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_ADRESSEGEOGRAPHIQUEUTILISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_NOMUTILISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CONTACT": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_EMAIL": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_LOGIN": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_MOTDEPASSE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_DATECREATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_DATECLOTURE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_TOKEN": {
+            "type": "string",
+            "nullable": true
+          },
+          "pI_CODEPIECE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_NUMEROPIECE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_DATEPIECE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_NOMBRECONNECTION": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CLESESSION": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsReqoperateur": {
+            "$ref": "#/components/schemas/clsReqoperateur"
+          },
+          "clsReqmicclient": {
+            "$ref": "#/components/schemas/clsReqmicclient"
+          },
+          "clsReqtontineepargnantjournalier": {
+            "$ref": "#/components/schemas/clsReqtontineepargnantjournalier"
+          },
+          "clsReqmicprospect": {
+            "$ref": "#/components/schemas/clsReqmicprospect"
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          },
+          "jT_DATEJOURNEETRAVAIL": {
+            "type": "string",
+            "nullable": true
+          },
+          "eX_DATEDEBUTPREMIEREXERCIE": {
+            "type": "string",
+            "nullable": true
+          },
+          "eX_EXERCICE": {
+            "type": "string",
+            "nullable": true
+          },
+          "eX_DATEDEBUT": {
+            "type": "string",
+            "nullable": true
+          },
+          "eX_DATEFIN": {
+            "type": "string",
+            "nullable": true
+          },
+          "eX_ETATEXERCICE": {
+            "type": "string",
+            "nullable": true
+          },
+          "eX_DATEDEBUTBILAN": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_RESULTAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_MESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_CODEMESSAGE": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsReqcompteutilisateurObjetsWrapper": {
+        "type": "object",
+        "properties": {
+          "objets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsReqcompteutilisateur"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsReqinfosduclient": {
+        "type": "object",
+        "properties": {
+          "cU_NOMUTILISATEURASSOCIER": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CONTACTUTILISATEURASSOCIER": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_EMAILUTILISATEURASSOCIER": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CODEAGENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "tU_CODETYPEUTILISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_NUMEROUTILISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_ADRESSEGEOGRAPHIQUEUTILISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_NOMUTILISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CONTACT": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_EMAIL": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_DATECREATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_DATECLOTURE": {
+            "type": "string",
+            "nullable": true
+          },
+          "pI_CODEPIECE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_NUMEROPIECE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_DATEPIECE": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsReqmicclient": {
+        "type": "object",
+        "properties": {
+          "cL_IDCLIENT": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CODECOMPTEUTULISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cL_CODECLIENT": {
+            "type": "string",
+            "nullable": true
+          },
+          "cL_CODECLIENTZENITH": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CODEAGENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "pV_CODEPOINTVENTE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cL_DATESAISIE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cL_REGISTRECOMMERCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cL_NUMEROCOMPTECONTRIBUABLE": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsReqmicprospect": {
+        "type": "object",
+        "properties": {
+          "pR_IDPROSPECT": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CODEAGENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "pV_CODEPOINTVENTE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CODECOMPTEUTULISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "pR_DATESAISIE": {
+            "type": "string",
+            "nullable": true
+          },
+          "pR_REGISTRECOMMERCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "pR_NUMEROCOMPTECONTRIBUABLE": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsReqmotdepasseoublier": {
+        "type": "object",
+        "properties": {
+          "aG_CODEAGENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "mO_DATE": {
+            "type": "string",
+            "nullable": true
+          },
+          "mO_NUMEROSEQUENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CODECOMPTEUTULISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "mO_CONTACT": {
+            "type": "string",
+            "nullable": true
+          },
+          "mO_HEURE": {
+            "type": "string",
+            "nullable": true
+          },
+          "mO_CODEVALIDATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "tU_CODETYPEUTILISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_MOTDEPASSE": {
+            "type": "string",
+            "nullable": true
+          },
+          "mO_DATEVALIDATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsReqmotdepasseoublierObjetsWrapper": {
+        "type": "object",
+        "properties": {
+          "objets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsReqmotdepasseoublier"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsReqoperateur": {
+        "type": "object",
+        "properties": {
+          "oP_CODEOPERATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "oP_CODEOPERATEURZENITH": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CODEAGENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "pV_CODEPOINTVENTE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CODECOMPTEUTULISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "sR_CODESERVICE": {
+            "type": "string",
+            "nullable": true
+          },
+          "oP_DATESAISIE": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsReqrequete": {
+        "type": "object",
+        "properties": {
+          "clsDocumentAssociesALaRequetes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsReqrequete"
+            },
+            "nullable": true
+          },
+          "clsDocumentAssociesAuContentieux": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsReqrequete"
+            },
+            "nullable": true
+          },
+          "cU_CODECOMPTEUTULISATEURASSOCIER": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombrerequetes": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombrerequetesencours": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombrerequetesattribuees": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombrerequetedejatraiter": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombrerequetestraiteesdansdelais": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombrerequetestraiteeshorsdelais": {
+            "type": "string",
+            "nullable": true
+          },
+          "nR_CODENATUREREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "nR_LIBELLENATUREREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "pP_VALEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "pP_CODEPARAMETRE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_CODEREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "tR_LIBELLETYEREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "tR_LIBELLETYEREQUETE_TRANSLATE": {
+            "type": "string",
+            "nullable": true
+          },
+          "tR_CODETYEREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_NUMEROREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_NUMERORECOMPTE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CODECOMPTEUTULISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_LOCALISATIONCLIENT": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_DESCRIPTIONREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "mC_CODEMODECOLLETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_DATESAISIEREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CODECOMPTEUTULISATEURAGENTENCHARGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_DATETRANSFERTREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_CODEREQUETERELANCEE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_SIGNATURE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CODEAGENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_SIGNATURE1": {
+            "type": "string",
+            "nullable": true
+          },
+          "rS_CODESTATUTRECEVABILITE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_OBJETREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sR_CODESERVICE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_DELAITRAITEMENTREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_OBSERVATIONDELAITRAITEMENTREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_OBSERVATIONAGENTTRAITEMENTREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_DUREETRAITEMENTREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_DATEDEBUTTRAITEMENTREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_DATEFINTRAITEMENTREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aC_CODEACTIONCORRECTIVE": {
+            "type": "string",
+            "nullable": true
+          },
+          "nS_CODENIVEAUSATISFACTION": {
+            "type": "string",
+            "nullable": true
+          },
+          "rE_CODEETAPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rE_LIBELLEETAPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rE_LIBELLEETAPE_TRANSLATE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_DATECLOTUREREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_NUMEROUTILISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_ADRESSEGEOGRAPHIQUEUTILISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_NOMUTILISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CONTACT": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_EMAIL": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_AFFICHERINFOCLIENT": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_NOMRAPPORT": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_LIENRAPPORT": {
+            "type": "string",
+            "nullable": true
+          },
+          "cT_DATEOUVERTURECONTENTIEUX": {
+            "type": "string",
+            "nullable": true
+          },
+          "cT_DATECLOTURECONTENTIEUX": {
+            "type": "string",
+            "nullable": true
+          },
+          "aT_INDEXETAPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aT_DATECLOTUREETAPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aT_DATEDEBUTTRAITEMENTETAPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aT_DATEFINTRAITEMENTETAPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          },
+          "rT_CODETYPERELANCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombrerequetestotal": {
+            "type": "string",
+            "nullable": true
+          },
+          "fichiersjoint": {
+            "type": "string",
+            "nullable": true
+          },
+          "cT_CODEREQUETECONTENTIEUX": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsReqrequeteObjetsWrapper": {
+        "type": "object",
+        "properties": {
+          "objets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsReqrequete"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsReqrequeteetape": {
+        "type": "object",
+        "properties": {
+          "clsDocEtapesDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsDocEtapesDetail"
+            },
+            "nullable": true
+          },
+          "aT_INDEXETAPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CODEAGENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_CODEREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CODECOMPTEUTULISATEURAGENTENCHARGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rE_CODEETAPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aT_NUMEROORDRE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aT_DESCRIPTION": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_DATESAISIE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aT_DATEDEBUTTRAITEMENTETAPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aT_DATEFINTRAITEMENTETAPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "aT_DATECLOTUREETAPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "nS_CODENIVEAUSATISFACTION": {
+            "type": "string",
+            "nullable": true
+          },
+          "aT_OBSERVATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "aT_NOMRAPPORT": {
+            "type": "string",
+            "nullable": true
+          },
+          "aT_ACTIF": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_OBSERVATIONCLOTUREDEFINITIVE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_OBSERVATIONANNULATIONCLOTUREDEFINITIVE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_NOMUTILISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CONTACT": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_EMAIL": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsReqrequeteetapeObjetsWrapper": {
+        "type": "object",
+        "properties": {
+          "objets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsReqrequeteetape"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsReqrequeteparetape": {
+        "type": "object",
+        "properties": {
+          "rE_CODEETAPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rE_LIBELLEETAPE": {
+            "type": "string",
+            "nullable": true
+          },
+          "rE_ACTIF": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsReqrequeteparetapeObjetsWrapper": {
+        "type": "object",
+        "properties": {
+          "objets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsReqrequeteparetape"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsReqsmsout": {
+        "type": "object",
+        "properties": {
+          "aG_CODEAGENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sM_DATEPIECE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sM_NUMSEQUENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CODECOMPTEUTULISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "tE_CODESMSTYPEOPERATION": {
+            "type": "string",
+            "nullable": true
+          },
+          "sM_MESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sM_MESSAGE_TRANSLATE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sM_TELEPHONE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sM_STATUT": {
+            "type": "string",
+            "nullable": true
+          },
+          "sM_DATEEMISSIONSMS": {
+            "type": "string",
+            "nullable": true
+          },
+          "sM_RAISONNONENVOISMS": {
+            "type": "string",
+            "nullable": true
+          },
+          "sM_DATESAISIE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sM_STATUT_LECTURE": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsReqtontineepargnantjournalier": {
+        "type": "object",
+        "properties": {
+          "eJ_IDEPARGNANTJOURNALIER": {
+            "type": "string",
+            "nullable": true
+          },
+          "eJ_CODEEPARGNANTJOURNALIERZENITH": {
+            "type": "string",
+            "nullable": true
+          },
+          "aG_CODEAGENCE": {
+            "type": "string",
+            "nullable": true
+          },
+          "pV_CODEPOINTVENTE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CODECOMPTEUTULISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "eJ_DATESAISIE": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsRequetecontentieux": {
+        "type": "object",
+        "properties": {
+          "cU_CODECOMPTEUTULISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cT_CODEREQUETECONTENTIEUX": {
+            "type": "string",
+            "nullable": true
+          },
+          "rQ_CODEREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "cT_DATEOUVERTURECONTENTIEUX": {
+            "type": "string",
+            "nullable": true
+          },
+          "cT_DATECLOTURECONTENTIEUX": {
+            "type": "string",
+            "nullable": true
+          },
+          "cT_MONTANTCONTENTIEUXEXTIME": {
+            "type": "string",
+            "nullable": true
+          },
+          "cT_MONTANTCONTENTIEUXREEL": {
+            "type": "string",
+            "nullable": true
+          },
+          "cT_OBSERVATION1": {
+            "type": "string",
+            "nullable": true
+          },
+          "cT_OBSERVATION2": {
+            "type": "string",
+            "nullable": true
+          },
+          "fichiersjoint": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsRequetecontentieuxObjetsWrapper": {
+        "type": "object",
+        "properties": {
+          "objets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsRequetecontentieux"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsRequtilisateurdroit": {
+        "type": "object",
+        "properties": {
+          "dP_CODEDROITCOMPTEUTULISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "cU_CODECOMPTEUTULISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "dP_LIBELLEDROITCOMPTEUTULISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "dP_COCHER": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeoperation": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsRequtilisateurdroitObjetsWrapper": {
+        "type": "object",
+        "properties": {
+          "objets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsRequtilisateurdroit"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsRequtilisateurdroitparametre": {
+        "type": "object",
+        "properties": {
+          "cU_CODECOMPTEUTULISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "dP_CODEDROITCOMPTEUTULISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "dP_LIBELLEDROITCOMPTEUTULISATEUR": {
+            "type": "string",
+            "nullable": true
+          },
+          "dP_OBJET": {
+            "type": "string",
+            "nullable": true
+          },
+          "dP_STATUT": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          },
+          "sL_RESULTAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_MESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_CODEMESSAGE": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsRequtilisateurdroitparametreObjetsWrapper": {
+        "type": "object",
+        "properties": {
+          "objets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsRequtilisateurdroitparametre"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsResultat": {
+        "type": "object",
+        "properties": {
+          "sL_NOM": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_PRENOMS": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_NUMEROBORDERAU": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_CODEMESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_MESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_RESULTAT": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsTableauDeBord": {
+        "type": "object",
+        "properties": {
+          "clsTableauDeBordTauxSatisfactions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsTableauDeBordTauxSatisfaction"
+            },
+            "nullable": true
+          },
+          "clsTableauDeBordSituationPlaintes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsTableauDeBordSituationPlainte"
+            },
+            "nullable": true
+          },
+          "clsTableauDeBordDelaiTraiPlaintes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsTableauDeBordAutre"
+            },
+            "nullable": true
+          },
+          "clsTableauDeBordNatPlainteRecurs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsTableauDeBordAutre"
+            },
+            "nullable": true
+          },
+          "clsTableauDeBordNbrePlainterefs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/clsTableauDeBordAutre"
+            },
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsTableauDeBordAutre": {
+        "type": "object",
+        "properties": {
+          "libellerubrique": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsTableauDeBordSituationPlainte": {
+        "type": "object",
+        "properties": {
+          "libellerubrique": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalplainterecues": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalplaintetraites": {
+            "type": "string",
+            "nullable": true
+          },
+          "avisclientfavorable": {
+            "type": "string",
+            "nullable": true
+          },
+          "avisclientnonfavorable": {
+            "type": "string",
+            "nullable": true
+          },
+          "tauxsatisfaction": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsTableauDeBordTauxSatisfaction": {
+        "type": "object",
+        "properties": {
+          "libellerubrique": {
+            "type": "string",
+            "nullable": true
+          },
+          "tR_LIBELLETYEREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "nR_CODENATUREREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "tR_CODETYEREQUETE": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalplainterecues": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalplaintetraites": {
+            "type": "string",
+            "nullable": true
+          },
+          "avisclientfavorable": {
+            "type": "string",
+            "nullable": true
+          },
+          "avisclientnonfavorable": {
+            "type": "string",
+            "nullable": true
+          },
+          "tauxsatisfaction": {
+            "type": "string",
+            "nullable": true
+          },
+          "clsResultat": {
+            "$ref": "#/components/schemas/clsResultat"
+          },
+          "clsObjetEnvoi": {
+            "$ref": "#/components/schemas/clsObjetEnvoi"
+          }
+        },
+        "additionalProperties": false
+      },
+      "clsZoneDTO": {
+        "type": "object",
+        "properties": {
+          "zN_CODEZONE": {
+            "type": "string",
+            "nullable": true
+          },
+          "zN_NOMZONE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_RESULTAT": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_MESSAGE": {
+            "type": "string",
+            "nullable": true
+          },
+          "sL_CODEMESSAGE": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

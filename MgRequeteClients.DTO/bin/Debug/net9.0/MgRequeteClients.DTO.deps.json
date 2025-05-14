@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "MgRequeteClients.DTO/1.0.0": {
+        "dependencies": {
+          "MgRequeteClients.Common": "1.0.0"
+        },
+        "runtime": {
+          "MgRequeteClients.DTO.dll": {}
+        }
+      },
+      "MgRequeteClients.Common/1.0.0": {
+        "runtime": {
+          "MgRequeteClients.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MgRequeteClients.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MgRequeteClients.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "cWGNU0MVsvFJngrmbH9Cz+PTioxNYLdsYVafaW4WxZE=",
+  "Source": "Zenith.API",
+  "BasePath": "_content/Zenith.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

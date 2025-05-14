@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "OcE3ki6PmBKwxTnSpHe3wUb94BCI2tbB5eb3sOjX/1E=",
+  "Source": "MgRequeteClients.API",
+  "BasePath": "_content/MgRequeteClients.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,375 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.DAL\\Zenith.DAL.csproj": {}
+  },
+  "projects": {
+    "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.BOJ\\Zenith.BOJ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.BOJ\\Zenith.BOJ.csproj",
+        "projectName": "Zenith.BOJ",
+        "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.BOJ\\Zenith.BOJ.csproj",
+        "packagesPath": "C:\\Users\\DEV HT 2\\.nuget\\packages\\",
+        "outputPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.BOJ\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV HT 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.DTO\\MgRequeteClients.DTO.csproj": {
+                "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.DTO\\MgRequeteClients.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.Common\\Zenith.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.Common\\Zenith.Common.csproj",
+        "projectName": "Zenith.Common",
+        "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.Common\\Zenith.Common.csproj",
+        "packagesPath": "C:\\Users\\DEV HT 2\\.nuget\\packages\\",
+        "outputPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV HT 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.DAL\\Zenith.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.DAL\\Zenith.DAL.csproj",
+        "projectName": "Zenith.DAL",
+        "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.DAL\\Zenith.DAL.csproj",
+        "packagesPath": "C:\\Users\\DEV HT 2\\.nuget\\packages\\",
+        "outputPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV HT 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.BOJ\\Zenith.BOJ.csproj": {
+                "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.BOJ\\Zenith.BOJ.csproj"
+              },
+              "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.DTO\\MgRequeteClients.DTO.csproj": {
+                "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.DTO\\MgRequeteClients.DTO.csproj"
+              },
+              "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.Tools\\MgRequeteClients.Tools.csproj": {
+                "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.Tools\\MgRequeteClients.Tools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.DTO\\MgRequeteClients.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.DTO\\MgRequeteClients.DTO.csproj",
+        "projectName": "MgRequeteClients.DTO",
+        "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.DTO\\MgRequeteClients.DTO.csproj",
+        "packagesPath": "C:\\Users\\DEV HT 2\\.nuget\\packages\\",
+        "outputPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV HT 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.Common\\Zenith.Common.csproj": {
+                "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.Common\\Zenith.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.Tools\\MgRequeteClients.Tools.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.Tools\\MgRequeteClients.Tools.csproj",
+        "projectName": "MgRequeteClients.Tools",
+        "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.Tools\\MgRequeteClients.Tools.csproj",
+        "packagesPath": "C:\\Users\\DEV HT 2\\.nuget\\packages\\",
+        "outputPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\Zenith.Tools\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV HT 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

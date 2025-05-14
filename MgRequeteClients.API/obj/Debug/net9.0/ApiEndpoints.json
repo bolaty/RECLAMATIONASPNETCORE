@@ -1,0 +1,1686 @@
+[
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.AgenceController",
+    "Method": "Get",
+    "RelativePath": "Agence.svc",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.AgenceController",
+    "Method": "Post",
+    "RelativePath": "Agence.svc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.AgenceController",
+    "Method": "Get",
+    "RelativePath": "Agence.svc/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.AgenceController",
+    "Method": "Put",
+    "RelativePath": "Agence.svc/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.AgenceController",
+    "Method": "Delete",
+    "RelativePath": "Agence.svc/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.AgenceController",
+    "Method": "AjouterAgence",
+    "RelativePath": "Agence.svc/ajouter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agence",
+        "Type": "MgRequeteClients.DTO.BusinessObjects.clsAgence",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.AgenceController",
+    "Method": "Test",
+    "RelativePath": "Agence.svc/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgAjouterdroitOperateur",
+    "RelativePath": "RequeteClientsClasse.svc/pvgAjouterdroitOperateur",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequtilisateurdroitparametre, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgChargerDansDataSetDASHBOARD",
+    "RelativePath": "RequeteClientsClasse.svc/pvgChargerDansDataSetDASHBOARD",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequete, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgChargerDansDataSetListeHistorique",
+    "RelativePath": "RequeteClientsClasse.svc/pvgChargerDansDataSetListeHistorique",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequete, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgChargerDansDataSetParOperateurs",
+    "RelativePath": "RequeteClientsClasse.svc/pvgChargerDansDataSetParOperateurs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequete, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgChargerDansDataSetParOperateursNotif",
+    "RelativePath": "RequeteClientsClasse.svc/pvgChargerDansDataSetParOperateursNotif",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequete, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgDroitParOperateurs",
+    "RelativePath": "RequeteClientsClasse.svc/pvgDroitParOperateurs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequtilisateurdroitparametre, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequtilisateurdroitparametre, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgEnvoiEmail",
+    "RelativePath": "RequeteClientsClasse.svc/pvgEnvoiEmail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsEnvoiEmail, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsEnvoiEmail, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgForgotPassword",
+    "RelativePath": "RequeteClientsClasse.svc/pvgForgotPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqmotdepasseoublier, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqmotdepasseoublier, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgFrequenceReclamation",
+    "RelativePath": "RequeteClientsClasse.svc/pvgFrequenceReclamation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AG_CODEAGENCE",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RQ_DATEDEBUT",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RQ_DATEFIN",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CU_CODECOMPTEUTULISATEUR",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TYPEETAT",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MgRequeteClients.DTO.BusinessObjects.clsFrequenceReclamationDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgInfosDuClient",
+    "RelativePath": "RequeteClientsClasse.svc/pvgInfosDuClient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqinfosduclient, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgInsertIntoDatasetAgenceWeb",
+    "RelativePath": "RequeteClientsClasse.svc/pvgInsertIntoDatasetAgenceWeb",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EX_EXERCICE",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SO_CODESOCIETE",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OP_CODEOPERATEUR",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ZN_CODEZONE",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MgRequeteClients.DTO.BusinessObjects.clsAgenceDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgInsertIntoDatasetExerciceWeb",
+    "RelativePath": "RequeteClientsClasse.svc/pvgInsertIntoDatasetExerciceWeb",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "MgRequeteClients.DTO.BusinessObjects.clsExerciceDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgInsertIntoDatasetListeClient",
+    "RelativePath": "RequeteClientsClasse.svc/pvgInsertIntoDatasetListeClient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqcompteutilisateur, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgInsertIntoDatasetListeDroitUtilisateur",
+    "RelativePath": "RequeteClientsClasse.svc/pvgInsertIntoDatasetListeDroitUtilisateur",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequtilisateurdroitparametre, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgInsertIntoDatasetPeriodiciteWeb",
+    "RelativePath": "RequeteClientsClasse.svc/pvgInsertIntoDatasetPeriodiciteWeb",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "MgRequeteClients.DTO.BusinessObjects.clsPeriodiciteDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgInsertIntoDatasetZoneWeb",
+    "RelativePath": "RequeteClientsClasse.svc/pvgInsertIntoDatasetZoneWeb",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "MgRequeteClients.DTO.BusinessObjects.clsZoneDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgLectureNotification",
+    "RelativePath": "RequeteClientsClasse.svc/pvgLectureNotification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqsmsout, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeReqrequete",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeReqrequete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequete, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeReqrequeteBCAO",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeReqrequeteBCAO",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsEditionEtatReclamation, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeReqrequeteContentieux",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeReqrequeteContentieux",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequetecontentieux, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeReqrequeteContentieuxCombo",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeReqrequeteContentieuxCombo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequetecontentieux, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeReqrequeteDoc",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeReqrequeteDoc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequete, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeReqrequeteEtape",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeReqrequeteEtape",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequeteetape, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeReqrequeteEtapeCombo",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeReqrequeteEtapeCombo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequeteetape, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeReqrequeteEtapeConsultation",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeReqrequeteEtapeConsultation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequeteetape, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeReqrequeteEtapeParam",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeReqrequeteEtapeParam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequeteparetape, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeReqrequeteEtapeParamCombo",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeReqrequeteEtapeParamCombo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequeteparetape, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeReqrequeteEtapeparRequete",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeReqrequeteEtapeparRequete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequeteetape, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeReqrequeteRelance",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeReqrequeteRelance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequete, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeSMS",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeSMS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqsmsout, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeUtilisateurDroit",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeUtilisateurDroit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequtilisateurdroit, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeUtilisateurDroitCombo",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeUtilisateurDroitCombo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequtilisateurdroit, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeUtilisateurDroitInfo",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeUtilisateurDroitInfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequtilisateurdroit, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeUtilisateurDroitParam",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeUtilisateurDroitParam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequtilisateurdroitparametre, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgListeUtilisateurDroitParamCombo",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeUtilisateurDroitParamCombo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsObjetEnvoiListe, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequtilisateurdroitparametre, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "ListeUtilisateurs",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeUtilisateurs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.DTO.BusinessObjects.ObjetsEnvoiListeWrapper",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqcompteutilisateur, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "ListeUtilisateursCombo",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeUtilisateursCombo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.DTO.BusinessObjects.ObjetsEnvoiListeWrapper",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqcompteutilisateur, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "ListeUtilisateursRecherche",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeUtilisateursRecherche",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.DTO.BusinessObjects.ObjetsEnvoiListeWrapper",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqcompteutilisateur, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "ListeUtilisateursRechercheParAgence",
+    "RelativePath": "RequeteClientsClasse.svc/pvgListeUtilisateursRechercheParAgence",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.DTO.BusinessObjects.ObjetsEnvoiListeWrapper",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqcompteutilisateur, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "Login",
+    "RelativePath": "RequeteClientsClasse.svc/pvgLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.DTO.BusinessObjects.ObjetsEnvoiListeWrapper",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqcompteutilisateur, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgMajReqrequete",
+    "RelativePath": "RequeteClientsClasse.svc/pvgMajReqrequete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequete, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MgRequeteClients.DTO.BusinessObjects.clsReqrequete",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgMajReqrequeteAvisclient",
+    "RelativePath": "RequeteClientsClasse.svc/pvgMajReqrequeteAvisclient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequete, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequete, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgMajReqrequeteContentieux",
+    "RelativePath": "RequeteClientsClasse.svc/pvgMajReqrequeteContentieux",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequetecontentieux, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequetecontentieux, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "UploadContentieux",
+    "RelativePath": "RequeteClientsClasse.svc/pvgMajReqrequeteContentieuxUPloadFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgMajReqrequeteEtape",
+    "RelativePath": "RequeteClientsClasse.svc/pvgMajReqrequeteEtape",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequeteetape, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MgRequeteClients.DTO.BusinessObjects.clsReqrequeteetape",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgMajReqrequeteEtapeParam",
+    "RelativePath": "RequeteClientsClasse.svc/pvgMajReqrequeteEtapeParam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqrequeteparetape, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MgRequeteClients.DTO.BusinessObjects.clsReqrequeteparetape",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgMajUtilisateurDroit",
+    "RelativePath": "RequeteClientsClasse.svc/pvgMajUtilisateurDroit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequtilisateurdroit, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequtilisateurdroit, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgMajUtilisateurDroitParam",
+    "RelativePath": "RequeteClientsClasse.svc/pvgMajUtilisateurDroitParam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequtilisateurdroitparametre, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsRequtilisateurdroitparametre, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "MajUtilisateurs",
+    "RelativePath": "RequeteClientsClasse.svc/pvgMajUtilisateurs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "MgRequeteClients.DTO.BusinessObjects.UtilisateurWrapper",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MgRequeteClients.DTO.BusinessObjects.clsReqcompteutilisateur",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgNomDeLaStructure",
+    "RelativePath": "RequeteClientsClasse.svc/pvgNomDeLaStructure",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PP_CODEPARAMETRE",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgPasswordRequest",
+    "RelativePath": "RequeteClientsClasse.svc/pvgPasswordRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "MgRequeteClients.API.Controller.RequeteClientsClasseController\u002BObjetsWrapper\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqcompteutilisateur, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqcompteutilisateur, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgPeriodiciteDateDebutFin",
+    "RelativePath": "RequeteClientsClasse.svc/pvgPeriodiciteDateDebutFin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EX_EXERCICE",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MO_CODEMOIS",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PE_CODEPERIODICITE",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MgRequeteClients.DTO.BusinessObjects.clsPeriodeDateDebutDateFinDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgPeriodiciteWeb",
+    "RelativePath": "RequeteClientsClasse.svc/pvgPeriodiciteWeb",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EX_EXERCICE",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MgRequeteClients.DTO.BusinessObjects.clsPeriodeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "UploadEtape",
+    "RelativePath": "RequeteClientsClasse.svc/pvgpvgMajReqrequeteEtapeUPloadFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "UploadRequete",
+    "RelativePath": "RequeteClientsClasse.svc/pvgpvgMajReqrequeteUPloadFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgTableauDeBord",
+    "RelativePath": "RequeteClientsClasse.svc/pvgTableauDeBord",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AG_CODEAGENCE",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RQ_DATEDEBUT",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RQ_DATEFIN",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CU_CODECOMPTEUTULISATEUR",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TYPEETAT",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MgRequeteClients.DTO.BusinessObjects.clsTableauDeBord",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "pvgTableauDeBordstatistique",
+    "RelativePath": "RequeteClientsClasse.svc/pvgTableauDeBordstatistique",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AG_CODEAGENCE",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RQ_DATEDEBUT",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RQ_DATEFIN",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CU_CODECOMPTEUTULISATEUR",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TYPEETAT",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MgRequeteClients.DTO.BusinessObjects.clsTableauDeBord",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MgRequeteClients.API.Controller.RequeteClientsClasseController",
+    "Method": "UpdateFirstConnexion",
+    "RelativePath": "RequeteClientsClasse.svc/pvgUpdateFirstconnexion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TU_CODETYPEUTILISATEUR",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CU_MOTDEPASSEOLD",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CU_LOGINOLD",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CU_MOTDEPASSENEW",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CU_LOGINNEW",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MgRequeteClients.DTO.BusinessObjects.clsReqcompteutilisateur, MgRequeteClients.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

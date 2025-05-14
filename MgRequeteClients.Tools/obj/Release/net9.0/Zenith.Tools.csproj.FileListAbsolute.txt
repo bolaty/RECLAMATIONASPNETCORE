@@ -1,0 +1,12 @@
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Tools\bin\Release\net9.0\Zenith.Tools.deps.json
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Tools\bin\Release\net9.0\Zenith.Tools.dll
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Tools\bin\Release\net9.0\Zenith.Tools.pdb
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Tools\obj\Release\net9.0\Zenith.Tools.csproj.AssemblyReference.cache
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Tools\obj\Release\net9.0\Zenith.Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Tools\obj\Release\net9.0\Zenith.Tools.AssemblyInfoInputs.cache
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Tools\obj\Release\net9.0\Zenith.Tools.AssemblyInfo.cs
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Tools\obj\Release\net9.0\Zenith.Tools.csproj.CoreCompileInputs.cache
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Tools\obj\Release\net9.0\Zenith.Tools.dll
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Tools\obj\Release\net9.0\refint\Zenith.Tools.dll
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Tools\obj\Release\net9.0\Zenith.Tools.pdb
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Tools\obj\Release\net9.0\ref\Zenith.Tools.dll

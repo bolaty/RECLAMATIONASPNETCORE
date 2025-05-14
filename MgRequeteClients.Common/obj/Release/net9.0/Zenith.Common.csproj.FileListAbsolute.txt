@@ -1,0 +1,11 @@
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Common\bin\Release\net9.0\Zenith.Common.deps.json
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Common\bin\Release\net9.0\Zenith.Common.dll
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Common\bin\Release\net9.0\Zenith.Common.pdb
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Common\obj\Release\net9.0\Zenith.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Common\obj\Release\net9.0\Zenith.Common.AssemblyInfoInputs.cache
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Common\obj\Release\net9.0\Zenith.Common.AssemblyInfo.cs
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Common\obj\Release\net9.0\Zenith.Common.csproj.CoreCompileInputs.cache
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Common\obj\Release\net9.0\Zenith.Common.dll
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Common\obj\Release\net9.0\refint\Zenith.Common.dll
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Common\obj\Release\net9.0\Zenith.Common.pdb
+C:\MGDIGITAL\MG_ZenithWebServeur.Core\Zenith.Common\obj\Release\net9.0\ref\Zenith.Common.dll

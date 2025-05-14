@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Zenith.BOJ/1.0.0": {
+        "dependencies": {
+          "Zenith.DTO": "1.0.0"
+        },
+        "runtime": {
+          "Zenith.BOJ.dll": {}
+        }
+      },
+      "Zenith.Common/1.0.0": {
+        "runtime": {
+          "Zenith.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Zenith.DTO/1.0.0": {
+        "dependencies": {
+          "Zenith.Common": "1.0.0"
+        },
+        "runtime": {
+          "Zenith.DTO.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Zenith.BOJ/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Zenith.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Zenith.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

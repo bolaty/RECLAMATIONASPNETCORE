@@ -1,0 +1,20 @@
+
+**** Log file opened at 2024-08-08 14:42:48.435769 UTC+00:00 (Temps universel coordonné), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 12
+Compilation date          : Jul  7 2023 22:54:54
+CPIC library              : 753.2023.07.06 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1216
+Current working directory : C:\Users\PC_DEV\Documents\GitHub\ZENITH-WEB-SERVEUR\ZenithWebServeur.WCF\ETATS
+Program                   : crw64
+Process ID                : 08188
+User                      : PC_DEV
+Hardware                  : PC with Windows NT 6x AMD64 Level 6 (Mod 158 Step 10)
+Operating_system          : Windows NT 10.0
+Hostname                  : DESKTOP-OAFUPID
+IP address                : 192.168.56.1
+IPv6 address              : fe80::98c0:b900:7a4d:517f
+Global trace level        : 0
+
+2024-08-08 14:42:48.416854 [01048] >> Info entry
+	Did not find config file C:\Users\PC_DEV\Documents\GitHub\ZENITH-WEB-SERVEUR\ZenithWebServeur.WCF\ETATS\sapnwrfc.ini.

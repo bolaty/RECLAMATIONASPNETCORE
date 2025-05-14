@@ -1,0 +1,61 @@
+Objectif
+Créer cette solution MG_ZenithWebServeur.Core :
+
+vbnet
+Copier
+Modifier
+MG_ZenithWebServeur.Core/
+│
+├── Zenith.API           (ASP.NET Core Web API)          ← remplace le WCF
+├── Zenith.BOJ           (.NET Class Library)            ← modèle métier
+├── Zenith.DTO           (.NET Class Library)            ← objets de transfert
+├── Zenith.BLL           (.NET Class Library)            ← logique métier
+├── Zenith.DAL           (.NET Class Library)            ← ADO.NET
+├── Zenith.Tools         (.NET Class Library)            ← outils réutilisables
+🛠 Étape 1 : Création des projets
+Ouvre une invite de commande dans le dossier de ton choix :
+
+bash
+Copier
+Modifier
+mkdir MG_ZenithWebServeur.Core
+cd MG_ZenithWebServeur.Core
+
+# Projet principal API
+dotnet new webapi -n Zenith.API
+
+# Bibliothèques de classes
+dotnet new classlib -n Zenith.BOJ
+dotnet new classlib -n Zenith.DTO
+dotnet new classlib -n Zenith.BLL
+dotnet new classlib -n Zenith.DAL
+dotnet new classlib -n Zenith.Tools
+
+# Créer la solution et y ajouter les projets
+dotnet new sln -n MG_ZenithWebServeur.Core
+dotnet sln add Zenith.API Zenith.BOJ Zenith.DTO Zenith.BLL Zenith.DAL Zenith.Tools
+🔁 Étape 2 : Ajouter les références entre projets
+On va connecter les couches comme suit :
+
+Zenith.API → utilise BLL, DTO, BOJ
+
+Zenith.BLL → utilise DAL, DTO, BOJ
+
+Zenith.DAL → utilise BOJ, DTO
+
+Zenith.Tools → utilisé par tous si besoin
+
+bash
+Copier
+Modifier
+dotnet add Zenith.API reference Zenith.BLL Zenith.DTO Zenith.BOJ
+dotnet add Zenith.BLL reference Zenith.DAL Zenith.DTO Zenith.BOJ
+dotnet add Zenith.DAL reference Zenith.DTO Zenith.BOJ
+dotnet add Zenith.BLL reference Zenith.Tools
+dotnet add Zenith.API reference Zenith.Tools
+🧪 Étape 3 : Lancer l’API pour vérification
+bash
+Copier
+Modifier
+cd Zenith.API
+dotnet run

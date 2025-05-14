@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <Folder Include="Classes edition\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MgRequeteClients.BOJ\MgRequeteClients.BOJ.csproj" />
+    <ProjectReference Include="..\MgRequeteClients.DAL\MgRequeteClients.DAL.csproj" />
+    <ProjectReference Include="..\MgRequeteClients.Tools\MgRequeteClients.Tools.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

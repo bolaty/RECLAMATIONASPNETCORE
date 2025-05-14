@@ -1,0 +1,553 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\MgRequeteClients.API.csproj": {}
+  },
+  "projects": {
+    "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\MgRequeteClients.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\MgRequeteClients.API.csproj",
+        "projectName": "MgRequeteClients.API",
+        "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\MgRequeteClients.API.csproj",
+        "packagesPath": "C:\\Users\\DEV HT 2\\.nuget\\packages\\",
+        "outputPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV HT 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BLL\\MgRequeteClients.BLL.csproj": {
+                "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BLL\\MgRequeteClients.BLL.csproj"
+              },
+              "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BOJ\\MgRequeteClients.BOJ.csproj": {
+                "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BOJ\\MgRequeteClients.BOJ.csproj"
+              },
+              "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DTO\\MgRequeteClients.DTO.csproj": {
+                "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DTO\\MgRequeteClients.DTO.csproj"
+              },
+              "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj": {
+                "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Ao.Lang.AspNetCore": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BLL\\MgRequeteClients.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BLL\\MgRequeteClients.BLL.csproj",
+        "projectName": "MgRequeteClients.BLL",
+        "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BLL\\MgRequeteClients.BLL.csproj",
+        "packagesPath": "C:\\Users\\DEV HT 2\\.nuget\\packages\\",
+        "outputPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV HT 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BOJ\\MgRequeteClients.BOJ.csproj": {
+                "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BOJ\\MgRequeteClients.BOJ.csproj"
+              },
+              "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj": {
+                "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj"
+              },
+              "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj": {
+                "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BOJ\\MgRequeteClients.BOJ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BOJ\\MgRequeteClients.BOJ.csproj",
+        "projectName": "MgRequeteClients.BOJ",
+        "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BOJ\\MgRequeteClients.BOJ.csproj",
+        "packagesPath": "C:\\Users\\DEV HT 2\\.nuget\\packages\\",
+        "outputPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BOJ\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV HT 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Common\\MgRequeteClients.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Common\\MgRequeteClients.Common.csproj",
+        "projectName": "MgRequeteClients.Common",
+        "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Common\\MgRequeteClients.Common.csproj",
+        "packagesPath": "C:\\Users\\DEV HT 2\\.nuget\\packages\\",
+        "outputPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV HT 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj",
+        "projectName": "MgRequeteClients.DAL",
+        "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj",
+        "packagesPath": "C:\\Users\\DEV HT 2\\.nuget\\packages\\",
+        "outputPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV HT 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BOJ\\MgRequeteClients.BOJ.csproj": {
+                "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BOJ\\MgRequeteClients.BOJ.csproj"
+              },
+              "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DTO\\MgRequeteClients.DTO.csproj": {
+                "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DTO\\MgRequeteClients.DTO.csproj"
+              },
+              "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj": {
+                "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DTO\\MgRequeteClients.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DTO\\MgRequeteClients.DTO.csproj",
+        "projectName": "MgRequeteClients.DTO",
+        "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DTO\\MgRequeteClients.DTO.csproj",
+        "packagesPath": "C:\\Users\\DEV HT 2\\.nuget\\packages\\",
+        "outputPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV HT 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Common\\MgRequeteClients.Common.csproj": {
+                "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Common\\MgRequeteClients.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj",
+        "projectName": "MgRequeteClients.Tools",
+        "projectPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj",
+        "packagesPath": "C:\\Users\\DEV HT 2\\.nuget\\packages\\",
+        "outputPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DEV HT 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
