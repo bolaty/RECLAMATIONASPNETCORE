@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MgRequeteClients.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a950a12de3bd5ec544cbf601664bf139df67211f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MgRequeteClients.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MgRequeteClients.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

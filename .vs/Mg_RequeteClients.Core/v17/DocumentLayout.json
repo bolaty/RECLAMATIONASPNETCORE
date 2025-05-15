@@ -3,8 +3,176 @@
   "WorkspaceRootPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{41C3FE3E-0165-2C71-42E6-02E22BBE850D}|MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.tools\\classes\\clsdonnee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C3FE3E-0165-2C71-42E6-02E22BBE850D}|MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj|solutionrelative:mgrequeteclients.tools\\classes\\clsdonnee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.api\\controller\\requeteclientsclassecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|solutionrelative:mgrequeteclients.api\\controller\\requeteclientsclassecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|solutionrelative:mgrequeteclients.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.api\\service\\requeteclientsclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|solutionrelative:mgrequeteclients.api\\service\\requeteclientsclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C3FE3E-0165-2C71-42E6-02E22BBE850D}|MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.tools\\classes\\clsappelservicewebnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C3FE3E-0165-2C71-42E6-02E22BBE850D}|MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj|solutionrelative:mgrequeteclients.tools\\classes\\clsappelservicewebnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C3FE3E-0165-2C71-42E6-02E22BBE850D}|MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.tools\\classes\\clschainecaractere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C3FE3E-0165-2C71-42E6-02E22BBE850D}|MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj|solutionrelative:mgrequeteclients.tools\\classes\\clschainecaractere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C3FE3E-0165-2C71-42E6-02E22BBE850D}|MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.tools\\classes\\clsdeclaration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C3FE3E-0165-2C71-42E6-02E22BBE850D}|MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj|solutionrelative:mgrequeteclients.tools\\classes\\clsdeclaration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213FF5EA-D01B-0425-DE20-1227B826ED27}|MgRequeteClients.BLL\\MgRequeteClients.BLL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.bll\\classes\\clsrequtilisateurdroitwsbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213FF5EA-D01B-0425-DE20-1227B826ED27}|MgRequeteClients.BLL\\MgRequeteClients.BLL.csproj|solutionrelative:mgrequeteclients.bll\\classes\\clsrequtilisateurdroitwsbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clssmsoutwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clssmsoutwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsrequtilisateurdroitwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsrequtilisateurdroitwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsrequtilisateurdroitparametrewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsrequtilisateurdroitparametrewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsrequetecontentieuxwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsrequetecontentieuxwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqtyperequetewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqtyperequetewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqtontineepargnantjournalierwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqtontineepargnantjournalierwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqstatutrecevabilitewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqstatutrecevabilitewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqsmsparametretypeoperationwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqsmsparametretypeoperationwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqsmsoutwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqsmsoutwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqrequetewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqrequetewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqrequeteparetapewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqrequeteparetapewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqrequeteetapewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqrequeteetapewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqpiecejointeswsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqpiecejointeswsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqpartypecompteutilisateurwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqpartypecompteutilisateurwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqoperateurwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqoperateurwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqniveausatisfactionwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqniveausatisfactionwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqnaturerequetewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqnaturerequetewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqmotdepasseoublierwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqmotdepasseoublierwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqmodecollectewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqmodecollectewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqmicprospectwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqmicprospectwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqmicclientwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqmicclientwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqemailparametretypeoperationwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqemailparametretypeoperationwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqemailoutwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqemailoutwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqcompteutilisateurwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqcompteutilisateurwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqagencelogicielliaisonwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqagencelogicielliaisonwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsreqactioncorrectivewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsreqactioncorrectivewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsplancomptablewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsplancomptablewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsparametrewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsparametrewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsoperateurwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsoperateurwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsmouchardwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsmouchardwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsmessageswsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsmessageswsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsjourneetravailwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsjourneetravailwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsexercicewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsexercicewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clseditionwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clseditionwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsagencewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsagencewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +182,565 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "clsSmsoutWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsSmsoutWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsSmsoutWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsSmsoutWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsSmsoutWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:04:22.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RequeteClientsClasseController.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Controller\\RequeteClientsClasseController.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.API\\Controller\\RequeteClientsClasseController.cs",
               "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Controller\\RequeteClientsClasseController.cs",
               "RelativeToolTip": "MgRequeteClients.API\\Controller\\RequeteClientsClasseController.cs",
-              "ViewState": "AgIAAFoEAAAAAAAAAAApwGIEAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFYEAAAAAAAAAIAwwGcEAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T17:25:44.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RequeteClientsClasse.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Service\\RequeteClientsClasse.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.API\\Service\\RequeteClientsClasse.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Service\\RequeteClientsClasse.cs",
+              "RelativeToolTip": "MgRequeteClients.API\\Service\\RequeteClientsClasse.cs",
+              "ViewState": "AgIAAKMDAAAAAAAAAIAwwLEDAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T12:41:29.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsDonnee.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\Classes\\clsDonnee.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.Tools\\Classes\\clsDonnee.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\Classes\\clsDonnee.cs",
+              "RelativeToolTip": "MgRequeteClients.Tools\\Classes\\clsDonnee.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAApwKYAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:01:20.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\appsettings.json",
+              "RelativeDocumentMoniker": "MgRequeteClients.API\\appsettings.json",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\appsettings.json",
+              "RelativeToolTip": "MgRequeteClients.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-14T18:49:59.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "clsRequtilisateurdroitWSBLL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BLL\\Classes\\clsRequtilisateurdroitWSBLL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.BLL\\Classes\\clsRequtilisateurdroitWSBLL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BLL\\Classes\\clsRequtilisateurdroitWSBLL.cs",
+              "RelativeToolTip": "MgRequeteClients.BLL\\Classes\\clsRequtilisateurdroitWSBLL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:04:54.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "clsDeclaration.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\Classes\\clsDeclaration.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.Tools\\Classes\\clsDeclaration.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\Classes\\clsDeclaration.cs",
+              "RelativeToolTip": "MgRequeteClients.Tools\\Classes\\clsDeclaration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:06:18.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "clsChaineCaractere.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\Classes\\clsChaineCaractere.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.Tools\\Classes\\clsChaineCaractere.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\Classes\\clsChaineCaractere.cs",
+              "RelativeToolTip": "MgRequeteClients.Tools\\Classes\\clsChaineCaractere.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:06:22.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsAppelServiceWebNew.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\Classes\\clsAppelServiceWebNew.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.Tools\\Classes\\clsAppelServiceWebNew.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\Classes\\clsAppelServiceWebNew.cs",
+              "RelativeToolTip": "MgRequeteClients.Tools\\Classes\\clsAppelServiceWebNew.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:06:26.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "clsRequtilisateurdroitWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsRequtilisateurdroitWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsRequtilisateurdroitWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsRequtilisateurdroitWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsRequtilisateurdroitWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:04:12.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "clsRequtilisateurdroitparametreWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsRequtilisateurdroitparametreWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsRequtilisateurdroitparametreWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsRequtilisateurdroitparametreWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsRequtilisateurdroitparametreWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:04:00.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "clsRequetecontentieuxWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsRequetecontentieuxWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsRequetecontentieuxWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsRequetecontentieuxWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsRequetecontentieuxWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:03:49.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "clsReqtyperequeteWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqtyperequeteWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqtyperequeteWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqtyperequeteWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqtyperequeteWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:03:39.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "clsReqtontineepargnantjournalierWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqtontineepargnantjournalierWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqtontineepargnantjournalierWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqtontineepargnantjournalierWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqtontineepargnantjournalierWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:03:27.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "clsReqstatutrecevabiliteWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqstatutrecevabiliteWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqstatutrecevabiliteWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqstatutrecevabiliteWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqstatutrecevabiliteWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:03:17.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "clsReqsmsparametretypeoperationWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqsmsparametretypeoperationWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqsmsparametretypeoperationWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqsmsparametretypeoperationWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqsmsparametretypeoperationWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:03:06.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "clsReqsmsoutWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqsmsoutWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqsmsoutWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqsmsoutWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqsmsoutWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:02:53.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "clsReqrequeteWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqrequeteWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqrequeteWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqrequeteWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqrequeteWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:02:43.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "clsReqrequeteparetapeWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqrequeteparetapeWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqrequeteparetapeWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqrequeteparetapeWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqrequeteparetapeWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:02:31.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "clsReqrequeteetapeWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqrequeteetapeWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqrequeteetapeWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqrequeteetapeWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqrequeteetapeWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:01:28.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "clsReqpiecejointesWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqpiecejointesWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqpiecejointesWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqpiecejointesWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqpiecejointesWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:01:18.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "clsReqpartypecompteutilisateurWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqpartypecompteutilisateurWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqpartypecompteutilisateurWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqpartypecompteutilisateurWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqpartypecompteutilisateurWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:01:08.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "clsReqoperateurWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqoperateurWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqoperateurWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqoperateurWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqoperateurWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:00:58.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "clsReqniveausatisfactionWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqniveausatisfactionWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqniveausatisfactionWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqniveausatisfactionWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqniveausatisfactionWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:00:47.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "clsReqnaturerequeteWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqnaturerequeteWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqnaturerequeteWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqnaturerequeteWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqnaturerequeteWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:00:37.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "clsReqmotdepasseoublierWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqmotdepasseoublierWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqmotdepasseoublierWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqmotdepasseoublierWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqmotdepasseoublierWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:59:58.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "clsReqmodecollecteWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqmodecollecteWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqmodecollecteWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqmodecollecteWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqmodecollecteWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:59:59.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "clsReqmicprospectWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqmicprospectWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqmicprospectWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqmicprospectWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqmicprospectWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:59:46.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "clsReqmicclientWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqmicclientWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqmicclientWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqmicclientWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqmicclientWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:59:36.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "clsReqemailparametretypeoperationWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqemailparametretypeoperationWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqemailparametretypeoperationWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqemailparametretypeoperationWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqemailparametretypeoperationWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:59:25.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "clsReqemailoutWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqemailoutWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqemailoutWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqemailoutWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqemailoutWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:59:13.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "clsReqagencelogicielliaisonWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqagencelogicielliaisonWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqagencelogicielliaisonWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqagencelogicielliaisonWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqagencelogicielliaisonWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:58:42.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "clsReqactioncorrectiveWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqactioncorrectiveWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqactioncorrectiveWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqactioncorrectiveWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqactioncorrectiveWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:58:31.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "clsPlancomptableWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsPlancomptableWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsPlancomptableWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsPlancomptableWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsPlancomptableWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:58:18.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "clsReqcompteutilisateurWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqcompteutilisateurWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqcompteutilisateurWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqcompteutilisateurWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqcompteutilisateurWSDAL.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwE8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:20:16.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "clsParametreWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsParametreWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsParametreWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsParametreWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsParametreWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:58:08.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "clsOperateurWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsOperateurWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsOperateurWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsOperateurWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsOperateurWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:57:51.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "clsMouchardWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsMouchardWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsMouchardWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsMouchardWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsMouchardWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:57:38.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "clsMessagesWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsMessagesWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsMessagesWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsMessagesWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsMessagesWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:55:19.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "clsJourneetravailWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsJourneetravailWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsJourneetravailWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsJourneetravailWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsJourneetravailWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:55:20.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "clsExerciceWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsExerciceWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsExerciceWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsExerciceWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsExerciceWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:55:07.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "clsEditionWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsEditionWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsEditionWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsEditionWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsEditionWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:52:26.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "clsAgenceWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsAgenceWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsAgenceWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsAgenceWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsAgenceWSDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:51:39.649Z",
               "EditorCaption": ""
             }
           ]

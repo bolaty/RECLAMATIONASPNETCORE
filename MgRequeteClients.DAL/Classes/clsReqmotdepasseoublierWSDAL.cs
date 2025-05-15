@@ -2,10 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Data;
-using System.Data.SqlClient;
+//using System.Data.SqlClient;
 using MgRequeteClients.Tools.Classes;
 using MgRequeteClients.DAL.Interfaces;
 using MgRequeteClients.BOJ.BusinessObjects;
+using Microsoft.Data.SqlClient;
+
 
 namespace MgRequeteClients.DAL.Classes
 {

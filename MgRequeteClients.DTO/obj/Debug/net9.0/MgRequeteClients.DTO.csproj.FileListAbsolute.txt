@@ -29,3 +29,4 @@ C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.DTO\
 C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.DTO\obj\Debug\net9.0\MgRequeteClients.DTO.csproj.AssemblyReference.cache
 C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.DTO\obj\Debug\net9.0\MgRequet.9A21AE74.Up2Date
 C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.DTO\obj\Debug\net9.0\ref\MgRequeteClients.DTO.dll
+C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.DTO\obj\Debug\net9.0\MgRequeteClients.DTO.sourcelink.json

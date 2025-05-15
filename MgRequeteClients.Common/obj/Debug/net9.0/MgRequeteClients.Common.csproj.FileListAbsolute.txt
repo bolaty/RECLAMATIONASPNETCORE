@@ -21,3 +21,4 @@ C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.Comm
 C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.Common\obj\Debug\net9.0\refint\MgRequeteClients.Common.dll
 C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.Common\obj\Debug\net9.0\MgRequeteClients.Common.pdb
 C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.Common\obj\Debug\net9.0\ref\MgRequeteClients.Common.dll
+C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.Common\obj\Debug\net9.0\MgRequeteClients.Common.sourcelink.json

@@ -41,3 +41,4 @@ C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.DAL\
 C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.DAL\bin\Debug\net9.0\MgRequeteClients.Common.pdb
 C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.DAL\obj\Debug\net9.0\MgRequet.7B34DCA9.Up2Date
 C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.DAL\obj\Debug\net9.0\ref\MgRequeteClients.DAL.dll
+C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.DAL\obj\Debug\net9.0\MgRequeteClients.DAL.sourcelink.json

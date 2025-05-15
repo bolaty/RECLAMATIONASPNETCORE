@@ -1,0 +1,250 @@
+{
+	"info": {
+		"_postman_id": "b5c2d139-5494-4486-93da-66ec6fd86ad9",
+		"name": "INTOUCH Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12040195",
+		"_collection_link": "https://galactic-capsule-399461.postman.co/workspace/HT~a198e70a-1c8d-4b51-bd28-955e6d04fa5e/collection/12040195-b5c2d139-5494-4486-93da-66ec6fd86ad9?action=share&source=collection_link&creator=12040195"
+	},
+	"item": [
+		{
+			"name": "URL",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "service_id",
+							"value": "CASHINOMCIPART",
+							"type": "text"
+						},
+						{
+							"key": "gu_transaction_id",
+							"value": "1645199970479",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "SUCCESSFUL",
+							"type": "text"
+						},
+						{
+							"key": "partner_transaction_id",
+							"value": "16457114078889126456GG",
+							"type": "text"
+						},
+						{
+							"key": "call_back_url",
+							"value": "https://160.155.243.15:448/",
+							"type": "text"
+						},
+						{
+							"key": "commission",
+							"value": "500",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "Operation being processed.",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://160.155.221.54:443/URLINTOUCH",
+					"protocol": "https",
+					"host": [
+						"160",
+						"155",
+						"221",
+						"54"
+					],
+					"port": "443",
+					"path": [
+						"URLINTOUCH"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "URL Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "service_id",
+							"value": "CASHINOMCIPART",
+							"type": "text"
+						},
+						{
+							"key": "gu_transaction_id",
+							"value": "1645199970479",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "SUCCESSFUL",
+							"type": "text"
+						},
+						{
+							"key": "partner_transaction_id",
+							"value": "cdecbd58-6ea0-454c-82e5-ea4163e696a0",
+							"type": "text"
+						},
+						{
+							"key": "call_back_url",
+							"value": "https://160.155.243.15:448/",
+							"type": "text"
+						},
+						{
+							"key": "commission",
+							"value": "500",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "Operation being processed.",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:33138/Intouchtontinemobile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "33138",
+					"path": [
+						"Intouchtontinemobile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "URL Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "service_id",
+							"value": "CASHINOMCIPART",
+							"type": "text"
+						},
+						{
+							"key": "gu_transaction_id",
+							"value": "1645199970479",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "SUCCESSFUL",
+							"type": "text"
+						},
+						{
+							"key": "partner_transaction_id",
+							"value": "cdecbd58-6ea0-454c-82e5-ea4163e696a0",
+							"type": "text"
+						},
+						{
+							"key": "call_back_url",
+							"value": "https://160.155.243.15:448/",
+							"type": "text"
+						},
+						{
+							"key": "commission",
+							"value": "500",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "Operation being processed.",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:33138/Intouchtontinemobile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "33138",
+					"path": [
+						"Intouchtontinemobile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "URL Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "service_id",
+							"value": "CASHINOMCIPART",
+							"type": "text"
+						},
+						{
+							"key": "gu_transaction_id",
+							"value": "1690279785706",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "SUCCESSFUL",
+							"type": "text"
+						},
+						{
+							"key": "partner_transaction_id",
+							"value": "1690279785706",
+							"type": "text"
+						},
+						{
+							"key": "call_back_url",
+							"value": "https://160.155.243.15:448/",
+							"type": "text"
+						},
+						{
+							"key": "commission",
+							"value": "500",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "Operation being processed.",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:33139/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "33139",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

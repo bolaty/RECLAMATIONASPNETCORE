@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
+//using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Data.SqlClient;
+using System.Configuration;
 
 namespace MgRequeteClients.Tools.Classes
 {
@@ -37,6 +39,9 @@ namespace MgRequeteClients.Tools.Classes
         private string vapCleCryptage;
         // Nom d'utilisateur
         private string vapUtilisateur;
+
+        // Nom d'utilisateur
+        private string vapconnexion;
 
         #endregion
 
@@ -124,27 +129,54 @@ namespace MgRequeteClients.Tools.Classes
             vapNombreLigneRequeteLocal = "0";
             vapNombreColonneRequeteLocal = 0;
             vapObjetDataReaderLocal = null;
+            vapconnexion = configuration.GetConnectionString("DefaultConnection").ToString();
             vapObjetConnexionLocal = new SqlConnection(clsChaineCaractere.ClasseChaineCaractere.pvgDeCrypter(configuration.GetConnectionString("DefaultConnection").ToString()));
         }
         #endregion
 
         #region Connexion à la base de données SQLServer
+        //public bool pvgConnectionBase()
+        //{
+        //    try
+        //    {
+        //        if (vapObjetConnexionLocal.State != ConnectionState.Open)
+        //        {
+        //            vapObjetConnexionLocal.Open();
+        //        }
+        //        return true;
+        //    }
+        //    catch
+        //    {
+        //        if (vagEtatConnexion)
+        //        {
+        //            return true;
+        //        }
+        //        return false;
+        //    }
+        //}
         public bool pvgConnectionBase()
         {
             try
             {
+                
+                if (vapObjetConnexionLocal == null)
+                    vapObjetConnexionLocal = new SqlConnection(clsChaineCaractere.ClasseChaineCaractere.pvgDeCrypter(vapconnexion.ToString()));
+
+                if (vapObjetConnexionLocal.State == ConnectionState.Broken)
+                {
+                    vapObjetConnexionLocal.Close(); // réparer une connexion cassée
+                }
+
                 if (vapObjetConnexionLocal.State != ConnectionState.Open)
                 {
                     vapObjetConnexionLocal.Open();
                 }
+
                 return true;
             }
-            catch
+            catch (Exception ex)
             {
-                if (vagEtatConnexion)
-                {
-                    return true;
-                }
+                // Console.WriteLine("Erreur de connexion : " + ex.Message);
                 return false;
             }
         }
@@ -302,38 +334,59 @@ namespace MgRequeteClients.Tools.Classes
         #endregion
 
         #region Remplit un DataSet
-
-        public DataSet pvgRemplirDataset(SqlCommand vppSqlCommand, string[] vppNomParametre, object[] vppValeurParametre, bool vppValeur)
+        public DataSet pvgRemplirDataset(SqlCommand command, string[] nomParametres, object[] valeurParametres, bool utiliserTransaction)
         {
-            vapDataSetLocal = new DataSet();
-            vapDataSetLocal.Clear();
-            vapNombreLigneRequeteLocal = "0";
-            if (pvgConnectionBase())
+            DataSet dataSet = new DataSet();
+
+            // Attache les paramètres à la commande
+            if (nomParametres != null && valeurParametres != null)
             {
-                try
+                for (int i = 0; i < nomParametres.Length; i++)
                 {
-                    if (vppNomParametre != null && vppValeurParametre != null)
-                        for (int i = 0; i < vppNomParametre.Length; i++)
-                        {
-                            vppSqlCommand.Parameters.Add(new SqlParameter(vppNomParametre[i], vppValeurParametre[i]));
-                        }
-                    vapObjetDataAdapterLocal = new SqlDataAdapter(vppSqlCommand);
-                    vapObjetDataAdapterLocal.Fill(vapDataSetLocal, "TABLE");
-                    vapNombreLigneRequeteLocal = vapDataSetLocal.Tables["TABLE"].Rows.Count.ToString();
-                    vapObjetDataAdapterLocal.Dispose();
-                }
-                catch (SqlException SQLEx)
-                {
-                    throw SQLEx;
-                }
-                finally
-                {
-                    vapObjetDataAdapterLocal = null;
+                    command.Parameters.AddWithValue(nomParametres[i], valeurParametres[i] ?? DBNull.Value);
                 }
             }
-            return vapDataSetLocal;
 
+            // Utilise Microsoft.Data.SqlClient.SqlDataAdapter
+            using (var adapter = new Microsoft.Data.SqlClient.SqlDataAdapter(command))
+            {
+                adapter.Fill(dataSet);
+            }
+
+            return dataSet;
         }
+
+        //public DataSet pvgRemplirDataset(SqlCommand vppSqlCommand, string[] vppNomParametre, object[] vppValeurParametre, bool vppValeur)
+        //{
+        //    vapDataSetLocal = new DataSet();
+        //    vapDataSetLocal.Clear();
+        //    vapNombreLigneRequeteLocal = "0";
+        //    if (pvgConnectionBase())
+        //    {
+        //        try
+        //        {
+        //            if (vppNomParametre != null && vppValeurParametre != null)
+        //                for (int i = 0; i < vppNomParametre.Length; i++)
+        //                {
+        //                    vppSqlCommand.Parameters.Add(new SqlParameter(vppNomParametre[i], vppValeurParametre[i]));
+        //                }
+        //            vapObjetDataAdapterLocal = new SqlDataAdapter(vppSqlCommand);
+        //            vapObjetDataAdapterLocal.Fill(vapDataSetLocal, "TABLE");
+        //            vapNombreLigneRequeteLocal = vapDataSetLocal.Tables["TABLE"].Rows.Count.ToString();
+        //            vapObjetDataAdapterLocal.Dispose();
+        //        }
+        //        catch (SqlException SQLEx)
+        //        {
+        //            throw SQLEx;
+        //        }
+        //        finally
+        //        {
+        //            vapObjetDataAdapterLocal = null;
+        //        }
+        //    }
+        //    return vapDataSetLocal;
+
+        //}
 
         public bool pvgRemplirDataset(SqlCommand vppSqlCommand, string[] vppNomParametre, object[] vppValeurParametre, DataSet mondataset)
         {

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
+//using System.Data.SqlClient;
 using System.Data;
 using System.Linq;
 using System.Text;
@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using MgRequeteClients.BOJ.BusinessObjects;
 using MgRequeteClients.DAL.Interfaces;
 using MgRequeteClients.Tools.Classes;
+using Microsoft.Data.SqlClient;
 
 namespace MgRequeteClients.DAL.Classes
 {
@@ -636,13 +637,23 @@ namespace MgRequeteClients.DAL.Classes
         ///<param name="vppCritere">critères de la requête scalaire</param>
         ///<returns>Un DataSet comme valeur du résultat de la requete</returns>
         ///<author>Home Technology</author>
+        //public DataSet pvgChargerDansDataSet(clsDonnee clsDonnee, params string[] vppCritere)
+        //{
+        //    pvpChoixCritere1(clsDonnee, vppCritere);
+        //    this.vapRequete = "SELECT *  FROM dbo.FT_REQCOMPTEUTILISATEUR(@CODECRYPTAGE) " + this.vapCritere;
+        //    this.vapCritere = "";
+        //    SqlCommand vppSqlCmd = new SqlCommand(this.vapRequete, clsDonnee.vogObjetConnexionLocal, clsDonnee.vogObjetTransactionLocal);
+        //    return clsDonnee.pvgRemplirDataset(vppSqlCmd, vapNomParametre, vapValeurParametre, true);
+        //}
+
         public DataSet pvgChargerDansDataSet(clsDonnee clsDonnee, params string[] vppCritere)
         {
             pvpChoixCritere1(clsDonnee, vppCritere);
-            this.vapRequete = "SELECT *  FROM dbo.FT_REQCOMPTEUTILISATEUR(@CODECRYPTAGE) " + this.vapCritere;
+            this.vapRequete = "SELECT * FROM dbo.FT_REQCOMPTEUTILISATEUR(@CODECRYPTAGE) " + this.vapCritere;
             this.vapCritere = "";
-            SqlCommand vppSqlCmd = new SqlCommand(this.vapRequete, clsDonnee.vogObjetConnexionLocal, clsDonnee.vogObjetTransactionLocal);
-            return clsDonnee.pvgRemplirDataset(vppSqlCmd, vapNomParametre, vapValeurParametre, true);
+
+            var sqlCommand = new SqlCommand(this.vapRequete, clsDonnee.vogObjetConnexionLocal, clsDonnee.vogObjetTransactionLocal);
+            return clsDonnee.pvgRemplirDataset(sqlCommand, vapNomParametre, vapValeurParametre, true);
         }
 
         ///<summary>Cette fonction permet d'executer une requete select dans la base de donnees et de remplir un Dataset avec le resultat de la requete (Ordre Critères : CU_CODECOMPTEUTULISATEUR, AG_CODEAGENCE, TU_CODETYPEUTILISATEUR, PI_CODEPIECE ) </summary>

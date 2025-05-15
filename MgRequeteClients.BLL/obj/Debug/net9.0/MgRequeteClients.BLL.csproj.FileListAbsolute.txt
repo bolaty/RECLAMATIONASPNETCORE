@@ -45,3 +45,4 @@ C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.BLL\
 C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.BLL\obj\Debug\net9.0\MgRequeteClients.BLL.csproj.AssemblyReference.cache
 C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.BLL\obj\Debug\net9.0\MgRequet.1B5C32FC.Up2Date
 C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.BLL\obj\Debug\net9.0\ref\MgRequeteClients.BLL.dll
+C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.BLL\obj\Debug\net9.0\MgRequeteClients.BLL.sourcelink.json

@@ -27,3 +27,4 @@ C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.BOJ\
 C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.BOJ\obj\Debug\net9.0\refint\MgRequeteClients.BOJ.dll
 C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.BOJ\obj\Debug\net9.0\MgRequeteClients.BOJ.pdb
 C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.BOJ\obj\Debug\net9.0\ref\MgRequeteClients.BOJ.dll
+C:\MGDIGITAL\PROJET_GESTION_PLAINTE\Mg_RequeteClients.Core\MgRequeteClients.BOJ\obj\Debug\net9.0\MgRequeteClients.BOJ.sourcelink.json
