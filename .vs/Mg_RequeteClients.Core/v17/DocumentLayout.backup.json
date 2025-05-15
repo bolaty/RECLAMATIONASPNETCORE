@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|solutionrelative:mgrequeteclients.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|solutionrelative:mgrequeteclients.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|solutionrelative:mgrequeteclients.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|solutionrelative:mgrequeteclients.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.api\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|solutionrelative:mgrequeteclients.api\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.api\\service\\requeteclientsclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|solutionrelative:mgrequeteclients.api\\service\\requeteclientsclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsagencewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsagencewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41C3FE3E-0165-2C71-42E6-02E22BBE850D}|MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.tools\\classes\\clsdonnee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.api\\controller\\requeteclientsclassecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|solutionrelative:mgrequeteclients.api\\controller\\requeteclientsclassecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.api\\service\\requeteclientsclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C69621E5-CA58-5779-084E-73B31D844BAB}|MgRequeteClients.API\\MgRequeteClients.API.csproj|solutionrelative:mgrequeteclients.api\\service\\requeteclientsclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41C3FE3E-0165-2C71-42E6-02E22BBE850D}|MgRequeteClients.Tools\\MgRequeteClients.Tools.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.tools\\classes\\clsappelservicewebnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -169,10 +189,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clseditionwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clseditionwsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|c:\\mgdigital\\projet_gestion_plainte\\mg_requeteclients.core\\mgrequeteclients.dal\\classes\\clsagencewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53E28888-4143-0FD0-E66F-60D87A2C34DE}|MgRequeteClients.DAL\\MgRequeteClients.DAL.csproj|solutionrelative:mgrequeteclients.dal\\classes\\clsagencewsdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -182,11 +198,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MgRequeteClients.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MgRequeteClients.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-15T21:15:58.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "docker-compose.yaml",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\docker-compose.yaml",
+              "RelativeDocumentMoniker": "MgRequeteClients.API\\docker-compose.yaml",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\docker-compose.yaml",
+              "RelativeToolTip": "MgRequeteClients.API\\docker-compose.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-05-15T20:38:49.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Dockerfile",
+              "RelativeDocumentMoniker": "MgRequeteClients.API\\Dockerfile",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Dockerfile",
+              "RelativeToolTip": "MgRequeteClients.API\\Dockerfile",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-15T19:52:11.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Program.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.API\\Program.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Program.cs",
+              "RelativeToolTip": "MgRequeteClients.API\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:51:50.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RequeteClientsClasse.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Service\\RequeteClientsClasse.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.API\\Service\\RequeteClientsClasse.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Service\\RequeteClientsClasse.cs",
+              "RelativeToolTip": "MgRequeteClients.API\\Service\\RequeteClientsClasse.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T12:41:29.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "clsDonnee.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\Classes\\clsDonnee.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.Tools\\Classes\\clsDonnee.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\Classes\\clsDonnee.cs",
+              "RelativeToolTip": "MgRequeteClients.Tools\\Classes\\clsDonnee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:01:20.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\appsettings.json",
+              "RelativeDocumentMoniker": "MgRequeteClients.API\\appsettings.json",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\appsettings.json",
+              "RelativeToolTip": "MgRequeteClients.API\\appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-14T18:49:59.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "clsAgenceWSDAL.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsAgenceWSDAL.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsAgenceWSDAL.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsAgenceWSDAL.cs",
+              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsAgenceWSDAL.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:51:39.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "RequeteClientsClasseController.cs",
+              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Controller\\RequeteClientsClasseController.cs",
+              "RelativeDocumentMoniker": "MgRequeteClients.API\\Controller\\RequeteClientsClasseController.cs",
+              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Controller\\RequeteClientsClasseController.cs",
+              "RelativeToolTip": "MgRequeteClients.API\\Controller\\RequeteClientsClasseController.cs",
+              "ViewState": "AgIAAFYEAAAAAAAAAIAwwGcEAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:25:44.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "clsSmsoutWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsSmsoutWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsSmsoutWSDAL.cs",
@@ -194,64 +327,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsSmsoutWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:04:22.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:04:22.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RequeteClientsClasseController.cs",
-              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Controller\\RequeteClientsClasseController.cs",
-              "RelativeDocumentMoniker": "MgRequeteClients.API\\Controller\\RequeteClientsClasseController.cs",
-              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Controller\\RequeteClientsClasseController.cs",
-              "RelativeToolTip": "MgRequeteClients.API\\Controller\\RequeteClientsClasseController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAuwD4AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T17:25:44.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RequeteClientsClasse.cs",
-              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Service\\RequeteClientsClasse.cs",
-              "RelativeDocumentMoniker": "MgRequeteClients.API\\Service\\RequeteClientsClasse.cs",
-              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\Service\\RequeteClientsClasse.cs",
-              "RelativeToolTip": "MgRequeteClients.API\\Service\\RequeteClientsClasse.cs",
-              "ViewState": "AgIAAKMDAAAAAAAAAIAwwLEDAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T12:41:29.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "clsDonnee.cs",
-              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\Classes\\clsDonnee.cs",
-              "RelativeDocumentMoniker": "MgRequeteClients.Tools\\Classes\\clsDonnee.cs",
-              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\Classes\\clsDonnee.cs",
-              "RelativeToolTip": "MgRequeteClients.Tools\\Classes\\clsDonnee.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAIA9wK8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T19:01:20.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\appsettings.json",
-              "RelativeDocumentMoniker": "MgRequeteClients.API\\appsettings.json",
-              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.API\\appsettings.json",
-              "RelativeToolTip": "MgRequeteClients.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-14T18:49:59.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "clsRequtilisateurdroitWSBLL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.BLL\\Classes\\clsRequtilisateurdroitWSBLL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.BLL\\Classes\\clsRequtilisateurdroitWSBLL.cs",
@@ -259,12 +339,11 @@
               "RelativeToolTip": "MgRequeteClients.BLL\\Classes\\clsRequtilisateurdroitWSBLL.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:04:54.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:04:54.676Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "clsDeclaration.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\Classes\\clsDeclaration.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.Tools\\Classes\\clsDeclaration.cs",
@@ -272,12 +351,11 @@
               "RelativeToolTip": "MgRequeteClients.Tools\\Classes\\clsDeclaration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:06:18.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:06:18.381Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "clsChaineCaractere.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\Classes\\clsChaineCaractere.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.Tools\\Classes\\clsChaineCaractere.cs",
@@ -285,12 +363,11 @@
               "RelativeToolTip": "MgRequeteClients.Tools\\Classes\\clsChaineCaractere.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:06:22.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:06:22.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "clsAppelServiceWebNew.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.Tools\\Classes\\clsAppelServiceWebNew.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.Tools\\Classes\\clsAppelServiceWebNew.cs",
@@ -298,12 +375,11 @@
               "RelativeToolTip": "MgRequeteClients.Tools\\Classes\\clsAppelServiceWebNew.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:06:26.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:06:26.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "clsRequtilisateurdroitWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsRequtilisateurdroitWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsRequtilisateurdroitWSDAL.cs",
@@ -311,12 +387,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsRequtilisateurdroitWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:04:12.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:04:12.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "clsRequtilisateurdroitparametreWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsRequtilisateurdroitparametreWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsRequtilisateurdroitparametreWSDAL.cs",
@@ -324,12 +399,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsRequtilisateurdroitparametreWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:04:00.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:04:00.687Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "clsRequetecontentieuxWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsRequetecontentieuxWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsRequetecontentieuxWSDAL.cs",
@@ -337,12 +411,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsRequetecontentieuxWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:03:49.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:03:49.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "clsReqtyperequeteWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqtyperequeteWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqtyperequeteWSDAL.cs",
@@ -350,12 +423,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqtyperequeteWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:03:39.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:03:39.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "clsReqtontineepargnantjournalierWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqtontineepargnantjournalierWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqtontineepargnantjournalierWSDAL.cs",
@@ -363,12 +435,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqtontineepargnantjournalierWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:03:27.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:03:27.776Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "clsReqstatutrecevabiliteWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqstatutrecevabiliteWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqstatutrecevabiliteWSDAL.cs",
@@ -376,12 +447,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqstatutrecevabiliteWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:03:17.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:03:17.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "clsReqsmsparametretypeoperationWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqsmsparametretypeoperationWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqsmsparametretypeoperationWSDAL.cs",
@@ -389,12 +459,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqsmsparametretypeoperationWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:03:06.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:03:06.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "clsReqsmsoutWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqsmsoutWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqsmsoutWSDAL.cs",
@@ -402,12 +471,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqsmsoutWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:02:53.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:02:53.669Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "clsReqrequeteWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqrequeteWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqrequeteWSDAL.cs",
@@ -415,12 +483,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqrequeteWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:02:43.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:02:43.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "clsReqrequeteparetapeWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqrequeteparetapeWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqrequeteparetapeWSDAL.cs",
@@ -428,12 +495,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqrequeteparetapeWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:02:31.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:02:31.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "clsReqrequeteetapeWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqrequeteetapeWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqrequeteetapeWSDAL.cs",
@@ -441,12 +507,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqrequeteetapeWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:01:28.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:01:28.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "clsReqpiecejointesWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqpiecejointesWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqpiecejointesWSDAL.cs",
@@ -454,12 +519,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqpiecejointesWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:01:18.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:01:18.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "clsReqpartypecompteutilisateurWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqpartypecompteutilisateurWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqpartypecompteutilisateurWSDAL.cs",
@@ -467,12 +531,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqpartypecompteutilisateurWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:01:08.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:01:08.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "clsReqoperateurWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqoperateurWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqoperateurWSDAL.cs",
@@ -480,12 +543,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqoperateurWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:00:58.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:00:58.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "clsReqniveausatisfactionWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqniveausatisfactionWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqniveausatisfactionWSDAL.cs",
@@ -493,12 +555,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqniveausatisfactionWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:00:47.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:00:47.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "clsReqnaturerequeteWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqnaturerequeteWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqnaturerequeteWSDAL.cs",
@@ -506,12 +567,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqnaturerequeteWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T19:00:37.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:00:37.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "clsReqmotdepasseoublierWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqmotdepasseoublierWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqmotdepasseoublierWSDAL.cs",
@@ -519,12 +579,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqmotdepasseoublierWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:59:58.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:59:58.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "clsReqmodecollecteWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqmodecollecteWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqmodecollecteWSDAL.cs",
@@ -532,12 +591,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqmodecollecteWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:59:59.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:59:59.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "clsReqmicprospectWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqmicprospectWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqmicprospectWSDAL.cs",
@@ -545,12 +603,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqmicprospectWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:59:46.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:59:46.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "clsReqmicclientWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqmicclientWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqmicclientWSDAL.cs",
@@ -558,12 +615,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqmicclientWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:59:36.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:59:36.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "clsReqemailparametretypeoperationWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqemailparametretypeoperationWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqemailparametretypeoperationWSDAL.cs",
@@ -571,12 +627,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqemailparametretypeoperationWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:59:25.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:59:25.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "clsReqemailoutWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqemailoutWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqemailoutWSDAL.cs",
@@ -584,12 +639,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqemailoutWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:59:13.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:59:13.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "clsReqagencelogicielliaisonWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqagencelogicielliaisonWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqagencelogicielliaisonWSDAL.cs",
@@ -597,12 +651,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqagencelogicielliaisonWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:58:42.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:58:42.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "clsReqactioncorrectiveWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqactioncorrectiveWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqactioncorrectiveWSDAL.cs",
@@ -610,12 +663,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqactioncorrectiveWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:58:31.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:58:31.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "clsPlancomptableWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsPlancomptableWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsPlancomptableWSDAL.cs",
@@ -623,12 +675,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsPlancomptableWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:58:18.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:58:18.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "clsReqcompteutilisateurWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsReqcompteutilisateurWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsReqcompteutilisateurWSDAL.cs",
@@ -636,12 +687,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsReqcompteutilisateurWSDAL.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAwwE8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:20:16.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:20:16.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "clsParametreWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsParametreWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsParametreWSDAL.cs",
@@ -649,12 +699,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsParametreWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:58:08.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:58:08.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "clsOperateurWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsOperateurWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsOperateurWSDAL.cs",
@@ -662,12 +711,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsOperateurWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:57:51.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:57:51.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "clsMouchardWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsMouchardWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsMouchardWSDAL.cs",
@@ -675,12 +723,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsMouchardWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:57:38.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:57:38.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "clsMessagesWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsMessagesWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsMessagesWSDAL.cs",
@@ -688,12 +735,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsMessagesWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:55:19.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:55:19.379Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "clsJourneetravailWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsJourneetravailWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsJourneetravailWSDAL.cs",
@@ -701,12 +747,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsJourneetravailWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:55:20.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:55:20.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "clsExerciceWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsExerciceWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsExerciceWSDAL.cs",
@@ -714,12 +759,11 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsExerciceWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:55:07.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:55:07.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "clsEditionWSDAL.cs",
               "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsEditionWSDAL.cs",
               "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsEditionWSDAL.cs",
@@ -727,21 +771,7 @@
               "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsEditionWSDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:52:26.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "clsAgenceWSDAL.cs",
-              "DocumentMoniker": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsAgenceWSDAL.cs",
-              "RelativeDocumentMoniker": "MgRequeteClients.DAL\\Classes\\clsAgenceWSDAL.cs",
-              "ToolTip": "C:\\MGDIGITAL\\PROJET_GESTION_PLAINTE\\Mg_RequeteClients.Core\\MgRequeteClients.DAL\\Classes\\clsAgenceWSDAL.cs",
-              "RelativeToolTip": "MgRequeteClients.DAL\\Classes\\clsAgenceWSDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T18:51:39.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T18:52:26.056Z"
             }
           ]
         }

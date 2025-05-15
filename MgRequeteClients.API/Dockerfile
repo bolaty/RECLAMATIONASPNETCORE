@@ -19,6 +19,8 @@ FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
 WORKDIR /app
 COPY --from=build /out ./
 
+RUN sed -i 's/DEFAULT@SECLEVEL=2/DEFAULT@SECLEVEL=1/g' /etc/ssl/openssl.cnf
+
 # Exposer le port utilisé dans Program.cs ou launchSettings.json
 EXPOSE 40000
 
